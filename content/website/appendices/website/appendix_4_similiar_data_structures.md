@@ -1,4 +1,4 @@
-<small>*_ Spirit Riddle Presents</small>
+<small>*_ Star Underscore Presents</small>
 
 # Appendix 4: Similiar Data Structures
 

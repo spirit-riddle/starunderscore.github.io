@@ -1,13 +1,13 @@
-# Spirit Riddle - GitHub Pages Entrance
+# Star Underscore - GitHub Pages Entrance
 
-Welcome to the main entrance for the [Spirit Riddle](https://spirit-riddle.com) projects and documentation. This repository serves as the landing page for accessing all related projects, guides, and resources.
+Welcome to the main entrance for the [Star Underscore](https://starunderscore.com) projects and documentation. This repository serves as the landing page for accessing all related projects, guides, and resources.
 
 ## Links
 
 - **MkDocs Software Printer Documentation (Version 1)**:
-  - [User Guide](https://spirit-riddle.github.io/mkdocs-software-printer/)
-  - [System Manual](https://spirit-riddle.github.io/mkdocs-software-printer/system/)
-  - [GitHub Repository](https://github.com/spirit-riddle/mkdocs-software-printer)
+  - [User Guide](https://starunderscore.github.io/mkdocs-software-printer/)
+  - [System Manual](https://starunderscore.github.io/mkdocs-software-printer/system/)
+  - [GitHub Repository](https://github.com/star-underscore/mkdocs-software-printer)
 
 ## License
 
@@ -15,9 +15,9 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-N
 
 ## About
 
-The Spirit Riddle project focuses on creating modular and accessible tools for developers, with an emphasis on simple, powerful prompts and documentation.
+The Star Underscore project focuses on creating modular and accessible tools for developers, with an emphasis on simple, powerful prompts and documentation.
 
-For more details, visit [spirit-riddle.com](https://spirit-riddle.com).
+For more details, visit [starunderscore.com](https://starunderscore.com).
 
 ## Getting Started
 
@@ -32,8 +32,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/spirit-riddle/spirit-riddle.github.io.git
-cd spirit-riddle.github.io
+git clone https://github.com/star-underscore/starunderscore.github.io.git
+cd starunderscore.github.io
 ```
 
 Install the required dependencies:

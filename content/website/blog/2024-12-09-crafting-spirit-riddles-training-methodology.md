@@ -5,7 +5,7 @@ layout: blog
 
 ---
 
-# Crafting Spirit Riddle's Training Methodology
+# Crafting Star Underscore's Training Methodology
 
 ## Refining Training with a Consistent Framework
 

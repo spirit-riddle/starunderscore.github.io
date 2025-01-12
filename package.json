@@ -2,7 +2,7 @@
   "name": "github-entrance-page",
   "private": true,
   "version": "1.0.0",
-  "description": "A simple Gatsby project for Spirit Riddle's GitHub main page.",
+  "description": "A simple Gatsby project for Star Underscore's GitHub main page.",
   "main": "index.js",
   "scripts": {
     "develop": "gatsby develop",

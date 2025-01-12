@@ -1,4 +1,4 @@
-# Spirit-Riddle Soft Skills Training for Corporate America
+# Star-Underscore Soft Skills Training for Corporate America
 
 **Unlock the power of soft skills to thrive in professional environments.** Learn practical techniques for refining communication, navigating workplace dynamics, and building emotional intelligence.
 

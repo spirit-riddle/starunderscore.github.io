@@ -8,9 +8,9 @@ const Footer = () => (
       fontSize: "0.9rem",
     }}
   >
-    <p>© {new Date().getFullYear()} Spirit Riddle. All rights reserved.</p>
+    <p>© {new Date().getFullYear()} Star Underscore. All rights reserved.</p>
     <p style={{ fontSize: "0.8rem" }}>
-      Explore more about Spirit Riddle on our{" "}
+      Explore more about Star Underscore on our{" "}
       <a
         href="/"
         style={{

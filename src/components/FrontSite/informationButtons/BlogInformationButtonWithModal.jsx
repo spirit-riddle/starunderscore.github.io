@@ -78,7 +78,7 @@ const BlogInformationButtonWithModal = () => {
             Blogs serve as micro-proofs, dynamically linking insights to training, PDFs, and products. Learn how this ecosystem drives innovation.
           </Typography>
           <a
-            href="/blog/2025-01-03-the-spirit-riddle-sitemap-product-and-philosophy/"
+            href="/blog/2025-01-03-the-star-underscore-sitemap-product-and-philosophy/"
             style={{
               textDecoration: "none",
               color: "#1976d2",

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Spirit Riddle`,
+    title: `Star Underscore`,
     description: `Great Prompting.`,
-    author: `@spirit_riddle`,
+    author: `@Star_Underscore`,
   },
   plugins: [
     {

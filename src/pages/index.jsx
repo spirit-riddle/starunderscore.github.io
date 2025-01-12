@@ -27,7 +27,7 @@ const IndexPage = () => (
           *_
         </a>
         <h1 style={{ fontSize: "2.5rem", margin: "0", fontWeight: "normal" }}>
-          Welcome to Spirit Riddle
+          Welcome to Star Underscore
         </h1>
         {/* <ThemeToggle /> */}
         <p
@@ -39,7 +39,7 @@ const IndexPage = () => (
         >
           <small><em>Innovation for a Better Tomorrow</em></small>
           <br />
-          Spirit Riddle blends software development, advanced mathematics, and energy efficiency into a unified platform for growth. Join the journey from foundational learning to enterprise solutions.
+          Star Underscore blends software development, advanced mathematics, and energy efficiency into a unified platform for growth. Join the journey from foundational learning to enterprise solutions.
         </p>
       </header>
 
@@ -54,7 +54,7 @@ const IndexPage = () => (
             marginBottom: "1.5rem",
           }}
         >
-          Discover everything Spirit Riddle has to offer in one place! Use our{" "}
+          Discover everything Star Underscore has to offer in one place! Use our{" "}
           <a
             href="/sitemap"
             style={{
@@ -108,7 +108,7 @@ const IndexPage = () => (
           {/* Professional Training Course */}
           <li style={{ marginBottom: "1.5rem" }}>
             <a
-              href="/training/professional/soft-skills-corporate-training/"
+              href="/training/professional/tp01-business-soft-skills/"
               style={{
                 textDecoration: "none",
                 fontWeight: "bold",
@@ -162,7 +162,7 @@ const IndexPage = () => (
       >
         <li style={{ marginBottom: "1rem" }}>
           <a
-            href="https://spirit-riddle.github.io/mkdocs-software-printer/"
+            href="https://starunderscore.github.io/mkdocs-software-printer/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -175,7 +175,7 @@ const IndexPage = () => (
         </li>
         <li style={{ marginBottom: "1rem" }}>
           <a
-            href="https://spirit-riddle.github.io/mkdocs-software-printer/system/"
+            href="https://starunderscore.github.io/mkdocs-software-printer/system/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -188,7 +188,7 @@ const IndexPage = () => (
         </li>
         <li style={{ marginBottom: "1rem" }}>
           <a
-            href="https://github.com/spirit-riddle/mkdocs-software-printer"
+            href="https://github.com/starunderscore/mkdocs-software-printer"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -233,7 +233,7 @@ const IndexPage = () => (
             Redefining Training: Main and Professional Courses
           </a>
           <p style={{ margin: 0, fontSize: "0.9rem" }}>
-            Discover Spirit Riddle's new approach to structured learning with 'Main' and 'Professional' courses, tailored to modern education standards.
+            Discover Star Underscore's new approach to structured learning with 'Main' and 'Professional' courses, tailored to modern education standards.
           </p>
           <p style={{ margin: 0, fontSize: "0.8rem" }}>
             Published: January 11, 2025
@@ -241,16 +241,16 @@ const IndexPage = () => (
         </li>
         <li style={{ marginBottom: "1rem" }}>
           <a
-            href="/blog/2025-01-03-the-spirit-riddle-sitemap-product-and-philosophy/"
+            href="/blog/2025-01-03-the-star-underscore-sitemap-product-and-philosophy/"
             style={{
               textDecoration: "none",
               fontWeight: "bold",
             }}
           >
-            The Spirit Riddle Sitemap Redefines Navigation with Innovation and Purpose
+            The Star Underscore Sitemap Redefines Navigation with Innovation and Purpose
           </a>
           <p style={{ margin: 0, fontSize: "0.9rem" }}>
-            Explore how Spirit-Riddle.com transforms a simple sitemap into a dynamic, AI-driven product for organizing and evolving content relationships.
+            Explore how StarUnderscore.com transforms a simple sitemap into a dynamic, AI-driven product for organizing and evolving content relationships.
           </p>
           <p style={{ margin: 0, fontSize: "0.8rem" }}>
             Published: January 03, 2024
@@ -277,16 +277,16 @@ const IndexPage = () => (
 
         <li style={{ marginBottom: "1rem" }}>
           <a
-            href="/blog/2024-12-09-crafting-spirit-riddles-training-methodology/"
+            href="/blog/2024-12-09-crafting-star-underscore-training-methodology/"
             style={{
               textDecoration: "none",
               fontWeight: "bold",
             }}
           >
-            Crafting Spirit Riddle's Training Methodology
+            Crafting Star Underscore's Training Methodology
           </a>
           <p style={{ margin: 0, fontSize: "0.9rem" }}>
-            Explore the methodology behind Spirit Riddle's standardized training courses, designed for consistency and clarity in learning.
+            Explore the methodology behind Star Underscore's standardized training courses, designed for consistency and clarity in learning.
           </p>
           <p style={{ margin: 0, fontSize: "0.8rem" }}>
             Published: December 9, 2024
@@ -337,7 +337,7 @@ const IndexPage = () => (
           fontSize: "0.9rem",
         }}
       >
-        <p>© {new Date().getFullYear()} Spirit Riddle. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Star Underscore. All rights reserved.</p>
         <p
           style={{
             fontSize: "0.8rem",

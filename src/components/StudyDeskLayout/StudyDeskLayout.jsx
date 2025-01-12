@@ -171,7 +171,7 @@ const StudyDeskLayout = ({
               {children}
               {/* Footer */}
               <footer className="footer">
-                <p>© {new Date().getFullYear()} Spirit Riddle. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} Star Underscore. All rights reserved.</p>
               </footer>
             </div>
 

@@ -1,0 +1,1 @@
+What are the limits of current mathematical frameworks in applying logic to software systems, and how can new symbols or extended math be generated to address those gaps?

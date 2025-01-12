@@ -1,0 +1,31 @@
+name: Build and Deploy Gatsby to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Run on the latest Ubuntu runner
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'  # Use Node.js 18 or higher
+
+    - name: Install dependencies
+      run: npm install  # Use npm or yarn depending on your setup
+
+    - name: Build Gatsby site
+      run: npm run build  # Ensure your package.json has the correct build script
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # Correct input parameter
+        publish_dir: ./public  # Directory where Gatsby outputs the built files

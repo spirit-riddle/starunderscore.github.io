@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { navigate } from "@gatsbyjs/reach-router";
 import EmptyLayout from "../components/EmptyLayout/EmptyLayout";
 
 const Sitemap = () => {
@@ -14,100 +13,16 @@ const Sitemap = () => {
           rawMarkdownBody
         }
       }
-      allSitePage(filter: { path: { regex: "/blog|training/courses/" } }) {
-        nodes {
-          path
-        }
-      }
     }
   `);
 
-  const stripJsxTags = (jsxContent) => {
-    return jsxContent.replace(/<[^>]+>/g, ""); // Remove all tags
-  };
+  const stripJsxTags = (jsxContent) => jsxContent.replace(/<[^>]+>/g, ""); // Strip HTML tags
 
-  // Parse the "q" parameter from the URL
-  const isBrowser = typeof window !== "undefined";
-  const initialQuery = isBrowser
+  const initialQuery = typeof window !== "undefined"
     ? new URLSearchParams(window.location.search).get("q") || ""
     : "";
 
   const [searchQuery, setSearchQuery] = useState(initialQuery);
-
-  useEffect(() => {
-    // Update the URL whenever the search query changes
-    const params = new URLSearchParams(window.location.search);
-    if (searchQuery) {
-      params.set("q", searchQuery);
-    } else {
-      params.delete("q");
-    }
-    // navigate(`/sitemap/?${params.toString()}`, { replace: true });
-  }, [searchQuery]);
-
-  const markdownFiles = data.allMarkdownRemark.nodes.map((node) => {
-    const title = node.fields.slug || "Untitled";
-    const slug = `/training/appendice/website/${node.fields.slug}`;
-    const rawText = node.rawMarkdownBody;
-
-    const snippets = rawText
-      .split("\n")
-      .filter((line) => line.trim() !== "");
-
-    return {
-      title,
-      path: slug,
-      snippets,
-    };
-  });
-
-  const blogPages = data.allSitePage.nodes
-    .filter((node) => node.path.startsWith("/blog"))
-    .map((node) => {
-      const title = node.path.replace("/blog/", "").replace(/\/$/, "") || "Untitled Blog";
-      const path = node.path;
-
-      const rawJsxContent = `
-        <div>
-          <h1>${title}</h1>
-          <p>This blog discusses various aspects of ${title.replace(/-/g, " ")}.</p>
-          <p>Explore the unique methodologies and insights presented.</p>
-        </div>
-      `;
-      const rawContent = stripJsxTags(rawJsxContent);
-      const snippets = rawContent.split(". ").filter((line) => line.trim() !== "");
-
-      return {
-        title,
-        path,
-        rawContent,
-        snippets,
-      };
-    });
-
-  const trainingPages = data.allSitePage.nodes
-    .filter((node) => node.path.startsWith("/training/courses"))
-    .map((node) => {
-      const title = node.path.replace("/training/courses/", "").replace(/\/$/, "") || "Untitled Training";
-      const path = node.path;
-
-      const rawJsxContent = `
-        <section>
-          <h2>${title}</h2>
-          <p>This training page delves into foundational concepts of ${title.replace(/-/g, " ")}.</p>
-          <p>Discover the advanced techniques and applications covered.</p>
-        </section>
-      `;
-      const rawContent = stripJsxTags(rawJsxContent);
-      const snippets = rawContent.split(". ").filter((line) => line.trim() !== "");
-
-      return {
-        title,
-        path,
-        rawContent,
-        snippets,
-      };
-    });
 
   const highlightQuery = (text, query) => {
     if (!query) return text;
@@ -115,56 +30,74 @@ const Sitemap = () => {
     return text.replace(regex, `<mark>$1</mark>`);
   };
 
-  const filteredData = {
-    blog: blogPages
-      .filter((page) =>
-        searchQuery
-          ? page.snippets.some((line) =>
-            line.toLowerCase().includes(searchQuery.toLowerCase())
-          )
-          : true
-      )
-      .map((page) => ({
-        ...page,
-        snippets: searchQuery
-          ? page.snippets.filter((line) =>
-            line.toLowerCase().includes(searchQuery.toLowerCase())
-          )
-          : [],
-      })),
-    pdfs: markdownFiles
-      .filter((file) =>
-        searchQuery
-          ? file.snippets.some((snippet) =>
-            snippet.toLowerCase().includes(searchQuery.toLowerCase())
-          )
-          : true
-      )
-      .map((file) => ({
-        ...file,
-        snippets: searchQuery
-          ? file.snippets.filter((snippet) =>
-            snippet.toLowerCase().includes(searchQuery.toLowerCase())
-          )
-          : [],
-      })),
-    training: trainingPages
-      .filter((page) =>
-        searchQuery
-          ? page.snippets.some((line) =>
-            line.toLowerCase().includes(searchQuery.toLowerCase())
-          )
-          : true
-      )
-      .map((page) => ({
-        ...page,
-        snippets: searchQuery
-          ? page.snippets.filter((line) =>
-            line.toLowerCase().includes(searchQuery.toLowerCase())
-          )
-          : [],
-      })),
+  const categorizedData = {
+    blog: [],
+    training: [],
+    pdfs: [],
+    product: {},
   };
+
+  // Group product files by project
+  data.allMarkdownRemark.nodes.forEach((node) => {
+    const slug = node.fields.slug;
+    const snippets = node.rawMarkdownBody.split("\n").filter((line) => line.trim() !== "");
+
+    if (slug.startsWith("website/blog")) {
+      categorizedData.blog.push({ path: `/blog/${slug.split("/").pop()}`, snippets });
+    } else if (slug.startsWith("website/training")) {
+      categorizedData.training.push({ path: `/training/${slug.split("/").pop()}`, snippets });
+    } else if (slug.startsWith("website/appendices/website")) {
+      categorizedData.pdfs.push({ path: `/appendices/website/${slug.split("/").pop()}`, snippets });
+    } else if (slug.startsWith("website/products")) {
+      const parts = slug.split("/");
+      const productName = parts[2]; // Extract project name (e.g., "awesome-sauce")
+      const fileName = parts.slice(3).join("/"); // Extract the rest of the path (e.g., "file.md")
+
+      if (!categorizedData.product[productName]) {
+        categorizedData.product[productName] = [];
+      }
+
+      categorizedData.product[productName].push({
+        path: `/products/${productName}/${fileName}`,
+        snippets,
+      });
+    }
+  });
+
+  const filteredData = {};
+  Object.keys(categorizedData).forEach((key) => {
+    if (key === "product") {
+      // Filter for products differently
+      filteredData[key] = {};
+      Object.keys(categorizedData[key]).forEach((productName) => {
+        const files = categorizedData[key][productName].filter((file) =>
+          searchQuery
+            ? file.snippets.some((line) => line.toLowerCase().includes(searchQuery.toLowerCase()))
+            : true
+        ).map((file) => ({
+          ...file,
+          snippets: searchQuery
+            ? file.snippets.filter((line) => line.toLowerCase().includes(searchQuery.toLowerCase()))
+            : [],
+        }));
+
+        if (files.length > 0 || !searchQuery) {
+          filteredData[key][productName] = files;
+        }
+      });
+    } else {
+      filteredData[key] = categorizedData[key].filter((item) =>
+        searchQuery
+          ? item.snippets.some((line) => line.toLowerCase().includes(searchQuery.toLowerCase()))
+          : true
+      ).map((item) => ({
+        ...item,
+        snippets: searchQuery
+          ? item.snippets.filter((line) => line.toLowerCase().includes(searchQuery.toLowerCase()))
+          : [],
+      }));
+    }
+  });
 
   return (
     <EmptyLayout>
@@ -177,84 +110,69 @@ const Sitemap = () => {
           onChange={(e) => setSearchQuery(e.target.value)}
           style={{ width: "100%", padding: "0.5rem", marginBottom: "1rem", borderRadius: "4px" }}
         />
-        <section>
-          <h2>Blog</h2>
-          {filteredData.blog.length > 0 ? (
-            <ul>
-              {filteredData.blog.map((page, idx) => (
-                <li key={idx}>
-                  <a href={page.path}>{page.title}</a>
-                  {searchQuery && page.snippets.length > 0 && (
+        {Object.entries(filteredData).map(([category, items]) => {
+          if (category === "product") {
+            // Render the two-dimensional product section
+            return (
+              <section key={category}>
+                <h2>Products</h2>
+                {Object.entries(items).map(([productName, files]) => (
+                  <div key={productName}>
+                    <h3>{productName}</h3>
                     <ul>
-                      {page.snippets.map((snippet, snippetIdx) => (
-                        <li
-                          key={snippetIdx}
-                          dangerouslySetInnerHTML={{
-                            __html: highlightQuery(snippet, searchQuery),
-                          }}
-                        ></li>
+                      {files.map((file, idx) => (
+                        <li key={idx}>
+                          <a href={file.path}>{file.path.split("/").pop()}</a>
+                          {searchQuery && file.snippets.length > 0 && (
+                            <ul>
+                              {file.snippets.map((snippet, snippetIdx) => (
+                                <li
+                                  key={snippetIdx}
+                                  dangerouslySetInnerHTML={{
+                                    __html: highlightQuery(snippet, searchQuery),
+                                  }}
+                                ></li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
                       ))}
                     </ul>
-                  )}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>No results found.</p>
-          )}
-        </section>
-        <section>
-          <h2>PDFs</h2>
-          {filteredData.pdfs.length > 0 ? (
-            <ul>
-              {filteredData.pdfs.map((file, idx) => (
-                <li key={idx}>
-                  <a href={file.path}>{file.title}</a>
-                  {searchQuery && file.snippets.length > 0 && (
-                    <ul>
-                      {file.snippets.map((snippet, snippetIdx) => (
-                        <li
-                          key={snippetIdx}
-                          dangerouslySetInnerHTML={{
-                            __html: highlightQuery(snippet, searchQuery),
-                          }}
-                        ></li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>No results found.</p>
-          )}
-        </section>
-        <section>
-          <h2>Training Pages</h2>
-          {filteredData.training.length > 0 ? (
-            <ul>
-              {filteredData.training.map((page, idx) => (
-                <li key={idx}>
-                  <a href={page.path}>{page.title}</a>
-                  {searchQuery && page.snippets.length > 0 && (
-                    <ul>
-                      {page.snippets.map((snippet, snippetIdx) => (
-                        <li
-                          key={snippetIdx}
-                          dangerouslySetInnerHTML={{
-                            __html: highlightQuery(snippet, searchQuery),
-                          }}
-                        ></li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>No results found.</p>
-          )}
-        </section>
+                  </div>
+                ))}
+              </section>
+            );
+          }
+
+          return (
+            <section key={category}>
+              <h2>{category.charAt(0).toUpperCase() + category.slice(1)}</h2>
+              {items.length > 0 ? (
+                <ul>
+                  {items.map((item, idx) => (
+                    <li key={idx}>
+                      <a href={item.path}>{item.path.split("/").pop()}</a>
+                      {searchQuery && item.snippets.length > 0 && (
+                        <ul>
+                          {item.snippets.map((snippet, snippetIdx) => (
+                            <li
+                              key={snippetIdx}
+                              dangerouslySetInnerHTML={{
+                                __html: highlightQuery(snippet, searchQuery),
+                              }}
+                            ></li>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p>No results found.</p>
+              )}
+            </section>
+          );
+        })}
       </main>
     </EmptyLayout>
   );

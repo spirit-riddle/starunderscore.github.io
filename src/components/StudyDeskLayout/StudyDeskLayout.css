@@ -211,3 +211,108 @@
   background-color: #005fa3;
   color: white;
 }
+
+
+
+
+
+/* Base Layout Styles */
+.study-desk-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Theme-Specific Styles */
+.study-desk-layout.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.study-desk-layout.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Header */
+.study-desk-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.study-desk-header.light {
+  background-color: #f4f4f4;
+}
+
+.study-desk-header.dark {
+  background-color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.light {
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+.sidebar.dark {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+}
+
+.sidebar li.active a {
+  font-weight: bold;
+}
+
+.sidebar ul ul {
+  padding-left: 1rem;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+
+/* Sidebar (Drawer) Styles */
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.sidebar li.active a {
+  font-weight: bold;
+  color: #1976d2;
+  /* Highlight active link */
+}
+
+.tabs a.active-tab {
+  border-bottom: 2px solid #1976d2;
+  /* Active tab indicator */
+  font-weight: bold;
+}

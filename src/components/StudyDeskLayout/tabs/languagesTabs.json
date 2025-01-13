@@ -1,0 +1,17 @@
+{
+  "Arabic": [
+    { "title": "Introduction", "href": "/study-desk/languages/arabic/_intro/" },
+    { "title": "Lesson 1: Alphabet", "href": "/study-desk/languages/arabic/lesson1_alphabet/" },
+    { "title": "Lesson 2: Basic Grammar and Vocabulary", "href": "/study-desk/languages/arabic/lesson2_basic_grammer_and_vocad/" }
+  ],
+  "English": [
+    { "title": "Introduction", "href": "/study-desk/languages/english/_intro/" },
+    { "title": "Lesson 1: Grammar", "href": "/study-desk/languages/english/lesson1_grammer/" }
+  ],
+  "Japanese": [
+    { "title": "Introduction", "href": "/study-desk/languages/japanese/_intro/" }
+  ],
+  "Spanish": [
+    { "title": "Introduction", "href": "/study-desk/languages/spanish/_intro/" }
+  ]
+}

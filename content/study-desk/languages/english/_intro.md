@@ -6,5 +6,5 @@ This Study Desk is your gateway to mastering the fundamentals and intricacies of
 
 ## Lessons and Resources
 
-- [Lesson 1: Grammar Basics](./study-desk/english/lesson1_grammer)  
+- [Lesson 1: Grammar Basics](/study-desk/languages/english/lesson1_grammer/)  
   *Start your journey by understanding the core principles of English grammar.*

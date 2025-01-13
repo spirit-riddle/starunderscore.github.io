@@ -1,0 +1,12 @@
+{
+  "Big-O": [
+    { "title": "Introduction", "href": "/study-desk/technical-skills/big-o/_intro/" }
+  ],
+  "C++ Development": [
+    { "title": "Introduction", "href": "/study-desk/technical-skills/cpp-development/_intro/" },
+    { "title": "Lesson 1: Basics", "href": "/study-desk/technical-skills/cpp-development/lesson1_basics/" }
+  ],
+  "Miscellaneous": [
+    { "title": "Muhammad Technique", "href": "/study-desk/technical-skills/misc/muhammad_technique/" }
+  ]
+}

@@ -8,5 +8,5 @@ This Study Desk is your gateway to mastering the fundamentals and advanced conce
 
 ## Lessons and Resources
 
-- [Lesson 1: Basics of C++](./study-desk/technical-skills/cpp-development/lesson1_basics)  
+- [Lesson 1: Basics of C++](/study-desk/technical-skills/cpp-development/lesson1_basics)  
   *Start your journey by learning the core principles of C++ programming.*

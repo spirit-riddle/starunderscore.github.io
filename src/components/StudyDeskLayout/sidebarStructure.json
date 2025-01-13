@@ -1,0 +1,68 @@
+{
+  "navigation": [
+    {
+      "title": "Languages",
+      "active": "languages",
+      "items": [
+        {
+          "title": "English Grammar",
+          "href": "/study-desk/languages/english/_intro/",
+          "active": "english"
+        },
+        {
+          "title": "Arabic",
+          "href": "/study-desk/languages/arabic/_intro/",
+          "active": "arabic"
+        },
+        {
+          "title": "Spanish",
+          "href": "/study-desk/languages/spanish/_intro/",
+          "active": "spanish"
+        },
+        {
+          "title": "Japanese",
+          "href": "/study-desk/languages/japanese/_intro/",
+          "active": "japanese"
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "active": "technical-skills",
+      "items": [
+        {
+          "title": "C++ Development",
+          "href": "/study-desk/technical-skills/cpp-development/_intro/",
+          "active": "cpp-development"
+        },
+        {
+          "title": "Big-O",
+          "href": "/study-desk/technical-skills/big-o/_intro/",
+          "active": "big-o"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "active": "projects",
+      "items": [
+        {
+          "title": "MkDocs Software Printer",
+          "href": "/study-desk/projects/mkdocs-software-printer/",
+          "active": "mkdocs-software-printer"
+        }
+      ]
+    },
+    {
+      "title": "Temp Holder",
+      "active": "temp-holder",
+      "items": [
+        {
+          "title": "MkDocs Software Printer",
+          "href": "/study-desk/temp-holder/mkdocs-software-printer/",
+          "active": "mkdocs-software-printer"
+        }
+      ]
+    }
+  ]
+}

@@ -6,5 +6,5 @@ This section serves as a placeholder for projects and resources that are in prog
 
 ## Current Projects
 
-- [MkDocs Software Printer](./study-desk/temp-holder/mkdocs-software-printer)  
+- [MkDocs Software Printer](/study-desk/temp-holder/mkdocs-software-printer)  
   *A tool for generating software projects directly from documentation.*

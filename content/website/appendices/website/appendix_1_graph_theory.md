@@ -1,3 +1,6 @@
+---
+title: Appendix 1 Graph Theory
+---
 <small>*_ Star Underscore Presents</small>
 
 # Graph Theory

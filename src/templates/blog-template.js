@@ -4,16 +4,18 @@ import Header from "../components/FrontSite/Header";
 import Footer from "../components/FrontSite/Footer";
 import "../pages/styles.css";
 import EmptyLayout from "../components/EmptyLayout/EmptyLayout";
+import { Helmet } from "react-helmet";
 
 const MarkdownTemplate = ({ data, pageContext }) => {
   const post = data.markdownRemark;
 
-  const { date, title } = pageContext
-
-  console.log('post', post)
+  const { date, title, siteTitle } = pageContext
 
   return (
     <EmptyLayout>
+      <Helmet>
+        <title>{`${title} | ${siteTitle}`}</title>
+      </Helmet>
       <main
         style={{
           fontFamily: "'Courier New', Courier, monospace",

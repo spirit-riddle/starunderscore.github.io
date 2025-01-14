@@ -1,3 +1,6 @@
+---
+title: Appendix 2 Probability and Statistics
+---
 <small>*_ Star Underscore Presents</small>
 
 # Probability and Statistics

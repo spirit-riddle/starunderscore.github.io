@@ -4,12 +4,18 @@ import Header from "../components/FrontSite/Header";
 import Footer from "../components/FrontSite/Footer";
 import "../pages/styles.css";
 import StudyDeskLayout from "../components/StudyDeskLayout/StudyDeskLayout";
+import { Helmet } from "react-helmet";
 
-const MarkdownTemplate = ({ data }) => {
+const MarkdownTemplate = ({ data, pageContext }) => {
   const post = data.markdownRemark;
+
+  const { title, siteTitle } = pageContext
 
   return (
     <StudyDeskLayout>
+      <Helmet>
+        <title>{`Study Desk | ${siteTitle}`}</title>
+      </Helmet>
       <main
         style={{
           fontFamily: "'Courier New', Courier, monospace",

@@ -12,6 +12,11 @@ exports.createPages = async ({ graphql, actions }) => {
     // Query all Markdown files
     const result = await graphql(`
       {
+        site {
+          siteMetadata {
+            title
+          }
+        }
         allMarkdownRemark {
           edges {
             node {
@@ -34,45 +39,49 @@ exports.createPages = async ({ graphql, actions }) => {
       return;
     }
 
+    const siteTitle = result.data.site.siteMetadata.title;
+
     // Iterate through Markdown nodes and create pages
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       const { slug, } = node.fields;
       const { title, date } = node.frontmatter;
+
+      const pageContext = { slug, title, date, siteTitle };
 
       // Handle paths for the website section
       if (slug.startsWith("website/appendices/website")) {
         createPage({
           path: `/appendices/website/${slug.split("/").pop()}`,
           component: path.resolve(`./src/templates/pdf-template.js`),
-          context: { slug },
+          context: pageContext,
         });
         console.log(`[Page Created]: /appendices/website/${slug.split("/").pop()}`);
       } else if (slug.startsWith("website/blog")) {
         createPage({
           path: `/blog/${slug.split("/").pop()}`,
           component: path.resolve(`./src/templates/blog-template.js`),
-          context: { slug, title, date },
+          context: pageContext,
         });
         console.log(`[Page Created]: /blog/${slug.split("/").pop()}`);
       } else if (slug.startsWith("website/training/main")) {
         createPage({
           path: `/training/main/${slug.split("/").pop()}`,
           component: path.resolve(`./src/templates/training-template.js`),
-          context: { slug },
+          context: pageContext,
         });
         console.log(`[Page Created]: /training/main/${slug.split("/").pop()}`);
       } else if (slug.startsWith("website/training/professional")) {
         createPage({
           path: `/training/professional/${slug.split("/").pop()}`,
           component: path.resolve(`./src/templates/training-template.js`),
-          context: { slug },
+          context: pageContext,
         });
         console.log(`[Page Created]: /training/professional/${slug.split("/").pop()}`);
       } else if (slug.startsWith("website/products")) {
         createPage({
           path: `/products/${slug.split("/").pop()}`,
           component: path.resolve(`./src/templates/product-template.js`),
-          context: { slug },
+          context: pageContext,
         });
         console.log(`[Page Created]: /products/${slug.split("/").pop()}`);
       }

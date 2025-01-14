@@ -1,3 +1,6 @@
+---
+title: Appendix 7 Soft Skills Development
+---
 <small>*_ Star Underscore Presents</small>
 
 # Appendix 7: Corporate Soft Skills—Speech Refinement Guide

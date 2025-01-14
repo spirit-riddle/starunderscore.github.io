@@ -1,3 +1,6 @@
+---
+title: Appendix 4 Similiar Data Structures
+---
 <small>*_ Star Underscore Presents</small>
 
 # Appendix 4: Similiar Data Structures

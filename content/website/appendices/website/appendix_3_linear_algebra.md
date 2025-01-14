@@ -1,3 +1,6 @@
+---
+title: Appendix 3 Linear Algebra
+---
 <small>*_ Star Underscore Presents</small>
 
 # Linear Algebra

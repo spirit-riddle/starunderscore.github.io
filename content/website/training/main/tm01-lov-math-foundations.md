@@ -1,3 +1,7 @@
+---
+title: LOV Math Foundations
+---
+
 # LOV Math Foundations
 
 **Embark on a journey to uncover the mathematical foundations behind advanced search engines.** Learn essential concepts through terminology, setting the stage for understanding algorithms and complex systems.

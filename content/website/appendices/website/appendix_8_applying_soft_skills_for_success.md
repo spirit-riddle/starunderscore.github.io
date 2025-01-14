@@ -1,3 +1,6 @@
+---
+title: Appendix 8 Applying Soft Skills for Success
+---
 <small>*_ Star Underscore Presents</small>
 
 # Appendix 8: Applying Soft Skills for Success

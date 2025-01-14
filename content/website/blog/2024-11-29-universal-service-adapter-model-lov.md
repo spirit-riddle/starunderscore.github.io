@@ -1,10 +1,9 @@
 ---
 title: LOV Universal Service Adapter Model
 date: "November 29, 2024"
-layout: blog
 ---
 
-# Universal Service Adapter Model: LOV
+<!-- # Universal Service Adapter Model: LOV -->
 
 LOV simplifies complex systems by connecting actions and services through a universal model. Whether you're a developer, a business owner, or just curious about the future of AI-driven tools, LOV is designed to make integration seamless and accessible.
 

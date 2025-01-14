@@ -5,8 +5,12 @@ import Footer from "../components/FrontSite/Footer";
 import "../pages/styles.css";
 import EmptyLayout from "../components/EmptyLayout/EmptyLayout";
 
-const MarkdownTemplate = ({ data }) => {
+const MarkdownTemplate = ({ data, pageContext }) => {
   const post = data.markdownRemark;
+
+  const { date, title } = pageContext
+
+  console.log('post', post)
 
   return (
     <EmptyLayout>
@@ -18,10 +22,11 @@ const MarkdownTemplate = ({ data }) => {
           borderRadius: "8px",
         }}
       >
-        {post?.frontmatter?.title && (
+        {title && (
           <Header
             showBlogTitle={true}
-            title={post.frontmatter.title}
+            title={title}
+            date={date}
           />
         )}
         <article

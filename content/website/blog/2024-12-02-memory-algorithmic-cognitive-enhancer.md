@@ -2,10 +2,9 @@
 title: Algorithmic Cognitive Enhancer
 subheader: Discover how rolling your voice through musical notes can unlock your brain’s full potential for memory retention and focus.
 date: "December 2, 2024"
-layout: blog
 ---
 
-# Algorithmic Cognitive Enhancer: Unlocking Better Memory Through Rhythmic Repetition
+<!-- # Algorithmic Cognitive Enhancer: Unlocking Better Memory Through Rhythmic Repetition -->
 
 ## Introduction
 

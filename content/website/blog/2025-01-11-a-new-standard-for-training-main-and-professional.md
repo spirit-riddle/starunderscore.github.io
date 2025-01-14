@@ -1,11 +1,10 @@
 ---
 title: A New Standard for Training - Main and Professional
 date: "January 11, 2025"
-layout: blog
 
 ---
 
-# Defining Star Underscore’s Training Standards
+<!-- # Defining Star Underscore’s Training Standards -->
 
 ## Introducing the Main and Professional Course Framework
 

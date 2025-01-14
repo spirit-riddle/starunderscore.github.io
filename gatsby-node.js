@@ -17,7 +17,8 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               frontmatter {
                 title
-              }
+                date
+             }
               fields {
                 slug
               }
@@ -35,7 +36,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Iterate through Markdown nodes and create pages
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      const { slug } = node.fields;
+      const { slug, } = node.fields;
+      const { title, date } = node.frontmatter;
 
       // Handle paths for the website section
       if (slug.startsWith("website/appendices/website")) {
@@ -49,7 +51,7 @@ exports.createPages = async ({ graphql, actions }) => {
         createPage({
           path: `/blog/${slug.split("/").pop()}`,
           component: path.resolve(`./src/templates/blog-template.js`),
-          context: { slug },
+          context: { slug, title, date },
         });
         console.log(`[Page Created]: /blog/${slug.split("/").pop()}`);
       } else if (slug.startsWith("website/training/main")) {

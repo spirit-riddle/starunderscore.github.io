@@ -3,6 +3,8 @@ module.exports = {
     title: `Star Underscore`,
     description: `Great Prompting.`,
     author: `@Star_Underscore`,
+    siteUrl: "https://starunderscore.com",
+    // siteUrl: "http://localhost:9000"
   },
   plugins: [
     {
@@ -35,6 +37,21 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        excludes: [`/study-desk/**`], // Exclude all pages under /study-desk/
+      },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://www.starunderscore.com`, // Replace with your actual domain
+        sitemap: `https://www.starunderscore.com/sitemap.xml`, // Path to your sitemap
+        policy: [{ userAgent: '*', allow: '/' }], // Allow all robots
+        disallow: [`/study-desk/`], // Disallow robots from accessing /study-desk/
       },
     },
   ],

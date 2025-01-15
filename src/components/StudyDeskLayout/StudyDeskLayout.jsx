@@ -1,24 +1,25 @@
 import React, { useEffect, useState } from "react";
 import "./StudyDeskLayout.css";
 import { ThemeProvider } from "../FrontSite/ThemeContext";
-import { useTabs } from "./TabsContext";
+// import { useTabs } from "./TabsContext";
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
 import Tabs from "./components/tabs";
 import Footer from "./components/footer";
+import sidebarStructure from "./sidebarStructure.json";
 
 const StudyDeskLayout = ({ children }) => {
-  const {
-    navigation,
-    tabs,
-    currentTabIndex,
-    currentSection,
-    currentSubItem,
-    updateStateFromUrl,
-    setCurrentSection,
-    setCurrentSubItem,
-    setCurrentTabIndex,
-  } = useTabs();
+  // const {
+  //   navigation,
+  //   tabs,
+  //   currentTabIndex,
+  //   currentSection,
+  //   currentSubItem,
+  //   updateStateFromUrl,
+  //   setCurrentSection,
+  //   setCurrentSubItem,
+  //   setCurrentTabIndex,
+  // } = useTabs();
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -26,18 +27,16 @@ const StudyDeskLayout = ({ children }) => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  useEffect(() => {
-    updateStateFromUrl();
-  }, [updateStateFromUrl]);
+  // useEffect(() => {
+  //   updateStateFromUrl();
+  // }, [updateStateFromUrl]);
 
   const handleNavigationClick = (section, subItem, href) => {
-    setCurrentSection(section);
-    setCurrentSubItem(subItem);
+    // setCurrentSection(section);
+    // setCurrentSubItem(subItem);
     setIsSidebarOpen(false);
     window.location.href = href; // Navigate to the new page
   };
-
-  console.log('navigation', navigation)
 
   return (
     <ThemeProvider>
@@ -46,19 +45,19 @@ const StudyDeskLayout = ({ children }) => {
         <Sidebar
           isSidebarOpen={isSidebarOpen}
           toggleSidebar={toggleSidebar}
-          navigation={navigation}
-          currentSection={currentSection}
-          currentSubItem={currentSubItem}
+          navigation={sidebarStructure.navigation}
+          // currentSection={currentSection}
+          // currentSubItem={currentSubItem}
           handleNavigationClick={handleNavigationClick}
         />
         <div className="main-content">
-          {tabs.length > 0 && (
+          {/* {tabs.length > 0 && (
             <Tabs
               tabs={tabs}
               currentTabIndex={currentTabIndex}
               setCurrentTabIndex={setCurrentTabIndex}
             />
-          )}
+          )} */}
           <div className="content">{children}</div>
           <Footer />
         </div>

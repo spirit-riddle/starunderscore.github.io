@@ -32,8 +32,9 @@ Explore the appendices to reinforce the course material. Each appendix is availa
 
 | Appendix                                  | Interactive Web View                                      | Standard PDF                                                                                      | Pro Edition (Hacker Reading) |
 |-------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------|
-| **Appendix 7: Corporate Soft Skills—Speech Refinement Guide** | [View Online](../appendice/website/appendix_7_soft_skills_development) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%207%20Soft%20Skills%20Development.pdf)   | [Download Pro PDF](../pro)   |
-| **Appendix 8: Applying Soft Skills for Success**            | [View Online](../appendice/website/appendix_8_applying_soft_skills_for_success) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%208%20Applying%20Soft%20Skills%20for%20Success.pdf) | [Download Pro PDF](../pro)   |
+| **Appendix 7: Corporate Soft Skills—Speech Refinement Guide** | [View Online](/appendices/website/appendix_7_soft_skills_development/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%207%20Soft%20Skills%20Development.pdf)   | [Download Pro PDF](/pro)   |
+| **Appendix 8: Applying Soft Skills for Success**            | [View Online](/appendices/website/appendix_8_applying_soft_skills_for_success/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%208%20Applying%20Soft%20Skills%20For%20Success.pdf) | [Download Pro PDF](/pro)   |
+| **All Appendices** |  | [Download All Standard PDFs](/training/appendices/zips/Business%20Soft%20Skills.zip) | [Download All Pro PDFs](/pro)  |
 
 ---
 

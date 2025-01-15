@@ -27,7 +27,7 @@ const MarkdownTemplate = ({ data, pageContext }) => {
         {post?.frontmatter?.title && (
           <Header
             showPDFTitle={true}
-            title={post.frontmatter.title}
+            title={""}
           />
         )}
         <article

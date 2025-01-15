@@ -15,6 +15,12 @@ This packet covers fundamental principles, advanced techniques, and their applic
 - [Data Structures](#data-structures)
 - [Final Notes](#final-notes)
 
+## Revision History
+
+| **Version** | **Date**       | **Author**         | **Changes**                              |
+|-------------|----------------|--------------------|------------------------------------------|
+| 1.0         | Jan 14, 2025   | Star Underscore    | Initial release                          |
+
 <br />
 <br />
 

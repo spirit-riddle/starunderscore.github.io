@@ -15,6 +15,12 @@ This packet introduces the key concepts, operations, and applications of linear 
 - [Data Structures](#data-structures)
 - [Final Notes](#final-notes)
 
+## Revision History
+
+| **Version** | **Date**       | **Author**         | **Changes**                              |
+|-------------|----------------|--------------------|------------------------------------------|
+| 1.0         | Jan 14, 2025   | Star Underscore    | Initial release                          |
+
 <br />
 <br />
 

@@ -24,6 +24,13 @@ Through this dynamic approach, you’ll learn to:
 - [Graph and Matrix Notation](#graph-and-matrix-notation)
 - [Final Notes](#final-notes)
 
+
+## Revision History
+
+| **Version** | **Date**       | **Author**         | **Changes**                              |
+|-------------|----------------|--------------------|------------------------------------------|
+| 1.0         | Jan 14, 2025   | Star Underscore    | Initial release                          |
+
 <br/>
 <br/>
 

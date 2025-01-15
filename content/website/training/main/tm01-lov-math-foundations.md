@@ -24,16 +24,15 @@ To enhance your memory, explore our free blog post, [Algorithmic Cognitive Enhan
 
 Explore the appendices for Graph Theory, Algorithms, Linear Algebra, and more. Each appendix is available in a web-friendly version, a standard PDF, and a Pro edition featuring advanced enhancements.
 
-| Appendix                                | Interactive Web View                                      | Standard PDF                                                                                      | Pro Edition (Hacker Reading) |
-|-----------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------|
-| **Appendix 1: Graph Theory**            | [View Online](../appendice/website/Appendix_1_Graph_Theory) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%201%20Graph%20Theory.pdf)               | [Download Pro PDF](../pro)   |
-| **Appendix 2: Algorithms and Models**   | [View Online](../appendice/website/Appendix_2_Algorithms_And_Models) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%202%20Algorithms%20And%20Models.pdf)   | [Download Pro PDF](../pro)   |
-| **Appendix 3: Linear Algebra**          | [View Online](../appendice/website/Appendix_3_Linear_Algebra) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%203%20Linear%20Algebra.pdf)            | [Download Pro PDF](../pro)   |
-| **Appendix 4: Probability and Statistics** | [View Online](../appendice/website/Appendix_4_Probability_And_Statistics) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%204%20Probability%20And%20Statistics.pdf) | [Download Pro PDF](../pro)   |
-| **Appendix 5: Comprehensive Terminology** | [View Online](../appendice/website/Appendix_5_Comprehensive_Terminology) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%205%20Comprehensive%20Terminology.pdf) | [Download Pro PDF](../pro)   |
-| **Appendix 6: Comprehensive Algorithms** | [View Online](../appendice/website/Appendix_6_Comprehensive_Algorithms) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%206%20Comprehensive%20Algorithms.pdf) | [Download Pro PDF](../pro)   |
-| **Appendix 7: Rosetta Stone for Math and Code** | [View Online](../appendice/website/Appendix_7_Rosetta_Stone_For_Math_And_Code) | [Download PDF](../appendice/pdf/Standard%20-%20Appendix%207%20Rosetta%20Stone%20For%20Math%20And%20Code.pdf) | [Download Pro PDF](../pro)   |
-| **All Appendices**                      |                                                          | [Download All Standard PDFs](../appendice/pdf/Standard%20-%20Appendices.zip)                   | [Download All Pro PDFs](../pro) |
+| Appendix                               | Interactive Web View                                       | Standard PDF                                                                                               | Pro Edition (Hacker Reading) |
+|-----------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
+| **Appendix 1: Graph Theory**            | [View Online](/appendices/website/appendix_1_graph_theory/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%201%20Graph%20Theory.pdf)                | [Download Pro PDF](/pro)   |
+| **Appendix 2: Probability And Statistics**   | [View Online](/appendices/website/appendix_2_probability_and_statistics/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%202%20Probability%20And%20Statistics.pdf)    | [Download Pro PDF](/pro)   |
+| **Appendix 3: Linear Algebra**          | [View Online](/appendices/website/appendix_3_linear_algebra/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%203%20Linear%20Algebra.pdf)              | [Download Pro PDF](/pro)   |
+| **Appendix 4: Similiar Data Structures** | [View Online](/appendices/website/appendix_4_similiar_data_structures/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%204%20Similiar%20Data%20Structures.pdf)  | [Download Pro PDF](/pro)   |
+| **Appendix 5: Fundamentals Of Math Sets In Programming** | [View Online](/appendices/website/appendix_5_fundamentals_of_math_sets_in_programming/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%205%20Fundamentals%20Of%20Math%20Sets%20In%20Programming.pdf)  | [Download Pro PDF](/pro)   |
+| **Appendix 6: Rosetta Stone For Math And Code** | [View Online](/appendices/website/appendix_6_rosetta_stone_for_math_and_code/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%206%20Rosetta%20Stone%20For%20Math%20And%20Code.pdf)  | [Download Pro PDF](/pro)   |
+| **All Appendices**                      |                                                               | [Download All Standard PDFs](/training/appendices/zips/LOV%20Math%20Fundamentals.zip)                      | [Download All Pro PDFs](/pro) |
 
 ## The Full Math Roadmap
 

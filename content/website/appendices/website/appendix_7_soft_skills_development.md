@@ -5,6 +5,16 @@ title: Appendix 7 Soft Skills Development
 
 # Appendix 7: Corporate Soft Skills—Speech Refinement Guide
 
+
+## Revision History
+
+| **Version** | **Date**       | **Author**         | **Changes**                              |
+|-------------|----------------|--------------------|------------------------------------------|
+| 1.0         | Jan 14, 2025   | Star Underscore    | Initial release                          |
+
+<br />
+<br />
+
 Soft skills, particularly effective communication, play a vital role in the corporate environment. Refining your speech patterns can transform how others perceive you and how you navigate professional interactions. This appendix provides a comprehensive guide to upgrading everyday workplace phrases, ensuring your words exude confidence, professionalism, and problem-solving.
 
 ---

@@ -5,6 +5,15 @@ title: Appendix 4 Similiar Data Structures
 
 # Appendix 4: Similiar Data Structures
 
+## Revision History
+
+| **Version** | **Date**       | **Author**         | **Changes**                              |
+|-------------|----------------|--------------------|------------------------------------------|
+| 1.0         | Jan 14, 2025   | Star Underscore    | Initial release                          |
+
+<br />
+<br />
+
 Data structures are the backbone of computational efficiency, serving as the foundation for algorithms and models across diverse fields like Graph Theory, Probability and Statistics, and Linear Algebra. Appendices 1-3 explored these disciplines individually, highlighting the essential data structures within each domain. 
 
 This appendix consolidates those insights, categorizing data structures by their relevance across all three fields, two fields, or a single field. The analysis not only reveals shared foundations like matrices and heaps but also uncovers specialized tools like the Toeplitz matrix and soft heaps, which address specific computational challenges.

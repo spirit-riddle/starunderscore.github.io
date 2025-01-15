@@ -5,6 +5,15 @@ title: Appendix 5 Fundamentals of Math Sets in Programming
 
 # Appendix 5: Fundamentals of Math Sets in Programming
 
+## Revision History
+
+| **Version** | **Date**       | **Author**         | **Changes**                              |
+|-------------|----------------|--------------------|------------------------------------------|
+| 1.0         | Jan 14, 2025   | Star Underscore    | Initial release                          |
+
+<br />
+<br />
+
 Mathematics provides a universal foundation for logic, computation, and problem-solving. This appendix focuses on the **basic building blocks** of math sets and demonstrates how they translate into practical programming concepts. By understanding these fundamentals, you can bridge the gap between abstract mathematical ideas and real-world coding applications.
 
 ---

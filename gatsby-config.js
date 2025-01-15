@@ -3,8 +3,7 @@ module.exports = {
     title: `Star Underscore`,
     description: `Great Prompting.`,
     author: `@Star_Underscore`,
-    siteUrl: "https://starunderscore.com",
-    // siteUrl: "http://localhost:9000"
+    siteUrl: `https://starunderscore.com`, // Add this back
   },
   plugins: [
     {
@@ -41,6 +40,34 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`,
+      options: {
+        // Optionally, customize query or resolveSiteUrl if you have unique needs
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+          }
+        `,
+        resolveSiteUrl: ({ site }) => site.siteMetadata.siteUrl,
+        resolvePages: ({ allSitePage: { nodes } }) => {
+          return nodes.map(node => {
+            return { ...node };
+          });
+        },
+        serialize: ({ path }) => {
+          return {
+            url: path,
+          };
+        },
+      },
       options: {
         excludes: [`/study-desk/**`], // Exclude all pages under /study-desk/
       },

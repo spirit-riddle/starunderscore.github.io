@@ -91,7 +91,15 @@ const TopAppBar = ({ branding = "*_", homeLink = "/" }) => {
             href={homeLink}
             sx={{ flexGrow: 1, textDecoration: "none", color: "inherit" }}
           >
-            {branding}
+            <img
+              src="/android-chrome-192x192.png"
+              alt="Logo"
+              style={{
+                height: "35px", // Adjust size as needed
+                width: "35px", // Ensure proportions
+                marginTop: "10px",
+              }}
+            />
           </Typography>
 
           {/* Search Icon */}

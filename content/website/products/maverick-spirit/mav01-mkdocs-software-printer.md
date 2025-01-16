@@ -1,3 +1,0 @@
----
-title: MkDocs Software Printer
----

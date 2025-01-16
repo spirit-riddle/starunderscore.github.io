@@ -1,3 +1,0 @@
----
-title: Maverick Spirit
----

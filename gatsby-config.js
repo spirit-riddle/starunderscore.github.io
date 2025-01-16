@@ -3,13 +3,13 @@ module.exports = {
     title: `Star Underscore`,
     description: `Great Prompting.`,
     author: `@Star_Underscore`,
-    siteUrl: `https://starunderscore.com`, // Add this back
+    siteUrl: `https://starunderscore.com`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["G-NKZN8BZHQV"], // Replace with your GA Measurement ID
+        trackingIds: ["G-NKZN8BZHQV"],
         gtagConfig: {
           anonymize_ip: true,
         },
@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
-        path: `${__dirname}/content/`, // Path to all markdown files
+        path: `${__dirname}/content/`,
       },
     },
     {
@@ -32,7 +32,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-katex`,
             options: {
-              strict: `ignore`, // Allows more flexible rendering
+              strict: `ignore`,
             },
           },
         ],
@@ -41,7 +41,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        // Optionally, customize query or resolveSiteUrl if you have unique needs
         query: `
           {
             site {
@@ -58,27 +57,26 @@ module.exports = {
         `,
         resolveSiteUrl: ({ site }) => site.siteMetadata.siteUrl,
         resolvePages: ({ allSitePage: { nodes } }) => {
-          return nodes.map(node => {
-            return { ...node };
-          });
+          return nodes.map((node) => ({ ...node }));
         },
         serialize: ({ path }) => {
           return {
             url: path,
           };
         },
-      },
-      options: {
-        excludes: [`/study-desk/**`], // Exclude all pages under /study-desk/
+        excludes: [`/study-desk/**`, `/study-desk/`], // Ensure study-desk is excluded
+        output: `/`, // Root sitemap location
       },
     },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://www.starunderscore.com`, // Replace with your actual domain
-        sitemap: `https://www.starunderscore.com/sitemap.xml`, // Path to your sitemap
-        policy: [{ userAgent: '*', allow: '/' }], // Allow all robots
-        disallow: [`/study-desk/`], // Disallow robots from accessing /study-desk/
+        host: `https://www.starunderscore.com`,
+        sitemap: `https://www.starunderscore.com/sitemap-0.xml`,
+        policy: [
+          { userAgent: '*', allow: '/' },
+          { userAgent: '*', disallow: ['/study-desk/'] }, // Explicitly disallow study-desk
+        ],
       },
     },
   ],

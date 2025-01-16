@@ -74,13 +74,13 @@ const IndexPage = () => {
           >
             Discover everything Star Underscore has to offer in one place! Use our{" "}
             <a
-              href="/sitemap"
+              href="/search"
               style={{
                 textDecoration: "none",
                 fontWeight: "bold",
               }}
             >
-              Sitemap
+              Search
             </a>{" "}
             to explore blogs, training pages, and resources.
           </p>

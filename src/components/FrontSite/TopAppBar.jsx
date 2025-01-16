@@ -50,7 +50,7 @@ const TopAppBar = ({ branding = "*_", homeLink = "/" }) => {
   const handleSearchSubmit = () => {
     if (searchText.trim() !== "") {
       const encodedQuery = encodeURIComponent(searchText.trim());
-      window.location.href = `/sitemap?q=${encodedQuery}`;
+      window.location.href = `/search?q=${encodedQuery}`;
     }
     setSearchModalOpen(false);
   };

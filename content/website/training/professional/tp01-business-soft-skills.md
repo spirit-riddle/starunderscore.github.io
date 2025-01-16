@@ -19,12 +19,10 @@ This course is designed for corporate professionals looking to elevate their com
 To maximize your learning, start by familiarizing yourself with the two appendices below. They provide a foundational understanding of refined workplace communication and strategies for applying soft skills effectively. These resources are not just supplemental—they are integral to mastering the concepts in this course.
 
 Enhance your memory retention and comprehension by using techniques such as:
-- **Algorithmic Cognitive Enhancer**: Apply rhythmic repetition to reinforce key terms and phrases.
-- **Hacker Reading (Bionic Reading)**: Available in the Pro edition, this technique highlights critical elements of text for faster recognition and understanding.
+- **[Algorithmic Cognitive Enhancer](/blog/2024-12-02-memory-algorithmic-cognitive-enhancer/)**: Apply rhythmic repetition to reinforce key terms and phrases.
+- **[Hacker Reading (Bionic Reading)](/pro/)**: Available in the Pro edition, this technique highlights critical elements of text for faster recognition and understanding.
 
 By combining these strategies, you can accelerate your mastery of soft skills while ensuring a deeper grasp of workplace dynamics.
-
----
 
 ## Download Appendices
 
@@ -36,7 +34,18 @@ Explore the appendices to reinforce the course material. Each appendix is availa
 | **Appendix 8: Applying Soft Skills for Success**            | [View Online](/appendices/website/appendix_8_applying_soft_skills_for_success/) | [Download PDF](/training/appendices/pdf/Standard%20-%20Appendix%208%20Applying%20Soft%20Skills%20For%20Success.pdf) | [Download Pro PDF](/pro)   |
 | **All Appendices** |  | [Download All Standard PDFs](/training/appendices/zips/Business%20Soft%20Skills.zip) | [Download All Pro PDFs](/pro)  |
 
----
+
+### **Supported Blogs for Standardization**
+
+1. [Crafting Star Underscore Training Methodology](/blog/2024-12-09-crafting-star-underscore-training-methodology/)  
+   *Understand the structure and philosophy behind Star Underscore’s standardized training courses.*
+
+2. [How to Become Successful in Tech and Life](/blog/2024-12-29-how-to-become-successful-in-tech-and-life/)  
+   *Explore actionable strategies for thriving in professional and personal life.*
+
+<br />
+<hr />
+<br />
 
 ## The Soft Skills Framework
 
@@ -56,9 +65,7 @@ This course covers essential aspects of professional soft skills, each designed 
    - Overcome challenges with grace and determination.
    - Balance competing priorities while maintaining composure under pressure.
 
----
-
-## Building Your Soft Skills Toolbox
+### Building Your Soft Skills Toolbox
 
 Soft skills are not just about what you say—they’re about how you say it, how you listen, and how you adapt. Here are some key takeaways to implement immediately:
 - Use solution-oriented language to transform negative interactions into productive ones.

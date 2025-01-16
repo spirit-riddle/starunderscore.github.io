@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import EmptyLayout from "../components/EmptyLayout/EmptyLayout";
 import { Helmet } from "react-helmet";
 
@@ -95,16 +95,16 @@ const Sitemap = () => {
           .filter((file) =>
             searchQuery
               ? file.snippets.some((line) =>
-                  line.toLowerCase().includes(searchQuery.toLowerCase())
-                )
+                line.toLowerCase().includes(searchQuery.toLowerCase())
+              )
               : true
           )
           .map((file) => ({
             ...file,
             snippets: searchQuery
               ? file.snippets.filter((line) =>
-                  line.toLowerCase().includes(searchQuery.toLowerCase())
-                )
+                line.toLowerCase().includes(searchQuery.toLowerCase())
+              )
               : [],
           }));
 
@@ -117,16 +117,16 @@ const Sitemap = () => {
         .filter((item) =>
           searchQuery
             ? item.snippets.some((line) =>
-                line.toLowerCase().includes(searchQuery.toLowerCase())
-              )
+              line.toLowerCase().includes(searchQuery.toLowerCase())
+            )
             : true
         )
         .map((item) => ({
           ...item,
           snippets: searchQuery
             ? item.snippets.filter((line) =>
-                line.toLowerCase().includes(searchQuery.toLowerCase())
-              )
+              line.toLowerCase().includes(searchQuery.toLowerCase())
+            )
             : [],
         }));
     }
@@ -135,10 +135,10 @@ const Sitemap = () => {
   return (
     <EmptyLayout>
       <Helmet>
-        <title>Sitemap | {siteTitle}</title>
+        <title>Search | {siteTitle}</title>
       </Helmet>
       <main style={{ padding: "1rem", maxWidth: "800px", margin: "0 auto" }}>
-        <h1>Sitemap</h1>
+        <h1>Search</h1>
         <input
           type="text"
           placeholder="Search..."
@@ -218,6 +218,16 @@ const Sitemap = () => {
             </section>
           );
         })}
+        <footer>
+          <p>
+            Want to understand how this site is structured?
+            <br />
+            <Link to="/blog/2025-01-03-the-star-underscore-sitemap-product-and-philosophy/">
+              Read this blog post to learn more.
+            </Link>
+          </p>
+        </footer>
+
       </main>
     </EmptyLayout>
   );

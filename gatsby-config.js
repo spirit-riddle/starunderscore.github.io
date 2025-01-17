@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`, // Load environment file based on the environment
+});
+
 module.exports = {
   siteMetadata: {
     title: `Star Underscore`,

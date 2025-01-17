@@ -33,6 +33,11 @@ body {
   text-decoration: underline;
 }
 
+[data-theme="light"] footer {
+  border-top: 2px solid #cccccc;
+  color: #666666;
+}
+
 /* Dark Theme */
 [data-theme="dark"] body {
   background-color: #121212;
@@ -59,14 +64,56 @@ body {
   text-decoration: underline;
 }
 
-
-footer {
+[data-theme="dark"] footer {
   border-top: 2px solid #333333;
-  font-size: 0.9rem;
   color: #888888;
 }
 
+/* Input and Button Styling */
+input,
+button {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme Input and Button */
+[data-theme="light"] input,
+[data-theme="light"] button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #cccccc;
+}
+
+[data-theme="light"] input:focus,
+[data-theme="light"] button:hover {
+  background-color: #f0f0f0;
+  border-color: #999999;
+}
+
+/* Dark Theme Input and Button */
+[data-theme="dark"] input,
+[data-theme="dark"] button {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] button:hover {
+  background-color: #444444;
+  border-color: #888888;
+}
+
 /* Utility Classes */
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -83,4 +130,70 @@ footer {
 
 .mb-2 {
   margin-bottom: 2rem;
+}
+
+/* Dark Mode Styles for the Pro Page
+[data-theme="dark"] main {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] button {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] button:hover {
+  background-color: #444444;
+  border-color: #888888;
+}
+
+[data-theme="dark"] a {
+  color: #80d8ff;
+}
+
+[data-theme="dark"] footer {
+  color: #888888;
+} */
+
+/* Input and Button Styling */
+input,
+button {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme Input and Button */
+[data-theme="light"] input,
+[data-theme="light"] button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #cccccc;
+}
+
+[data-theme="light"] input:focus,
+[data-theme="light"] button:hover {
+  background-color: #f0f0f0;
+  border-color: #999999;
+}
+
+/* Dark Theme Input and Button */
+[data-theme="dark"] input,
+[data-theme="dark"] button {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] button:hover {
+  background-color: #444444;
+  border-color: #888888;
 }

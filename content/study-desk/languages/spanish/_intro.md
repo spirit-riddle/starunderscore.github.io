@@ -6,13 +6,13 @@ This Study Desk is your gateway to mastering the fundamentals and intricacies of
 
 ## Lessons and Resources
 
-- [Lesson 1: Spanish Alphabet](./study-desk/languages/spanish/lesson1_alphabet)  
+- [Lesson 1: Spanish Alphabet](/study-desk/languages/spanish/lesson1_alphabet)  
   *Begin your journey with the building blocks of the Spanish language—the alphabet. Learn how to pronounce, read, and write with confidence through engaging video resources.*
 
-- [Lesson 2: Basic Grammar and Vocabulary](./study-desk/languages/spanish/lesson2_basic_grammer_and_vocabulary)  
+- [Lesson 2: Basic Grammar and Vocabulary](/study-desk/languages/spanish/lesson2_basic_grammer_and_vocabulary)  
   *Delve into the essentials of Spanish grammar and vocabulary. Master noun-adjective agreement, verb conjugations, and sentence structure to start forming meaningful sentences.*
 
-- [Lesson 3: Beginner Spanish Sentences with Glossary](./study-desk/languages/spanish/lesson3_building_blocks)  
+- [Lesson 3: Beginner Spanish Sentences with Glossary](/study-desk/languages/spanish/lesson3_building_blocks)  
   *Put your vocabulary into action with beginner-friendly sentences and glossaries. Learn practical phrases and how to use them in everyday conversations.*
 
 ---

@@ -6,3 +6,9 @@ This Study Desk is your gateway to mastering the fundamentals and intricacies of
 
 ## Lessons and Resources
 
+- [Lesson 3: Beginner Japanese Sentences with Glossary](/study-desk/languages/japanese/lesson3_building_blocks/)  
+  *Learn foundational Japanese vocabulary and sentences with detailed glossaries and example phrases. This lesson builds your confidence in forming practical and meaningful conversations.*
+
+---
+
+Feel free to explore these lessons in order or jump into the section that interests you most. Japanese is a fascinating and logical language, and with each lesson, you'll gain a deeper understanding of its beauty and structure.

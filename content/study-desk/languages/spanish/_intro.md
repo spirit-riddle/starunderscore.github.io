@@ -15,6 +15,9 @@ This Study Desk is your gateway to mastering the fundamentals and intricacies of
 - [Lesson 3: Beginner Spanish Sentences with Glossary](/study-desk/languages/spanish/lesson3_building_blocks)  
   *Put your vocabulary into action with beginner-friendly sentences and glossaries. Learn practical phrases and how to use them in everyday conversations.*
 
+- [Lesson 4: Spanish for the Job Site - Building a House](/study-desk/languages/spanish/lesson4_building_a_house)  
+  *Enhance your communication skills on the job site with essential Spanish phrases and commands tailored for construction work. Learn how to give directions, ensure safety, and collaborate effectively with your team.*
+
 ---
 
 Feel free to explore these lessons in order or jump into the section that interests you most. Spanish is a vibrant and expressive language, and with every lesson, you'll unlock new ways to connect with its culture and people.

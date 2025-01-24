@@ -470,6 +470,7 @@ Characters often refer to time and numbers in anime, whether it’s setting up e
     Hiragana: ふたりいます。
 
 <br />
+
 ## Section 8: Expressions of Power and Determination
 
 Anime often highlights characters' determination and moments of power. These phrases capture the spirit of such moments and are great for practice.

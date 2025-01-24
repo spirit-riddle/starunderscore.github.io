@@ -58,6 +58,29 @@ These fields provide a foundation for algorithms, system optimization, and deepe
 - **Linear Algebra**: Vectors, matrices, and eigenvalues.
 - **Data Structures**: Text processing, clustering, and graph-based computations.  
 
+## Introduction to Graph Theory
+
+Before diving into advanced graph theory programming concepts, it's essential to build a strong foundation. This video provides an introduction to graph theory, explaining the core ideas, real-world applications, and why this field is critical for understanding algorithms and systems design.
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/LFKZLXVO-Dg?si=e7q5Ak7ohOLdAW-e"
+  title="Introduction to Graph Theory"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+### **Key Takeaways**:
+- Understand the basic components of graphs: vertices and edges.
+- Explore how graphs model relationships and structures in data.
+- Learn the practical importance of graph theory in solving complex problems.
+
+---
+
+Now that you have a solid understanding of the fundamentals, proceed to **Graph Theory Programming with Python** for hands-on applications and deeper insights from a Google professional.
+
 ## Learning Graph Theory Programming with Python
 
 Explore graph theory programming with Python in this Google Engineer's guide. Learn how foundational concepts connect to search engine technologies.
@@ -76,6 +99,51 @@ Explore graph theory programming with Python in this Google Engineer's guide. Le
 - Representing graphs in Python.
 - Graph traversal algorithms like DFS and BFS.
 - Practical applications of graph theory in coding.
+
+---
+
+## Introduction to Statistics and Probability
+
+Understanding statistics and probability is essential for building a strong foundation in data analysis, machine learning, and decision-making. These videos provide a gradual progression, starting with an accessible overview and moving toward a comprehensive exploration.
+
+### Statistics and Probability: Overview
+
+This concise video introduces key concepts in probability and statistics, making it an excellent starting point for beginners. It covers fundamental topics and real-world applications, preparing you for deeper study.
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/sQqniayndb4"
+  title="Statistics and Probability Overview"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+### Key Takeaways:
+- Learn the basics of descriptive and inferential statistics.
+- Understand fundamental probability concepts.
+- Explore real-world applications of statistical models.
+
+
+### Probability and Statistics Full Course
+
+Dive deeper into the world of statistics and probability with this comprehensive 11-hour course. It provides a thorough understanding of key topics, from descriptive statistics to regression analysis.
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/sbbYntt5CJk"
+  title="Probability and Statistics Full Course"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+### Key Takeaways:
+- Gain an in-depth understanding of statistical and probabilistic methods.
+- Learn hypothesis testing, probability distributions, and regression analysis.
+- Build a strong foundation for advanced studies in data science and machine learning.
 
 ---
 

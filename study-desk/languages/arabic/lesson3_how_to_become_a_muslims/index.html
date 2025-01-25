@@ -1,0 +1,828 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.14.0"/><style data-href="/styles.2f4507ebda03086b6006.css" data-identity="gatsby-global-css">body{font-family:Courier New,Courier,monospace;margin:0;padding:0;transition:background-color .3s ease,color .3s ease}[data-theme=light] body{background-color:#fff;color:#000}[data-theme=light] h1,[data-theme=light] h2,[data-theme=light] h3{color:#333}[data-theme=light] a{color:#0073e6;text-decoration:none}[data-theme=light] a:hover{color:#005bb5;text-decoration:underline}[data-theme=light] footer{border-top:2px solid #ccc;color:#666}[data-theme=dark] body{background-color:#121212;color:#e0e0e0}[data-theme=dark] h1,[data-theme=dark] h2,[data-theme=dark] h3{color:#f5f5f5}[data-theme=dark] a{color:#80d8ff;text-decoration:none}[data-theme=dark] a:hover{color:#40c4ff;text-decoration:underline}[data-theme=dark] footer{border-top:2px solid #333;color:#888}footer{padding:1rem;text-align:center}.container{margin:0 auto;max-width:900px;padding:1rem}.text-center{text-align:center}.mt-2{margin-top:2rem}.mb-2{margin-bottom:2rem}button,input{border:1px solid #ccc;border-radius:4px;font-family:Courier New,Courier,monospace;margin:.5rem 0;padding:.5rem;transition:background-color .3s ease,color .3s ease}[data-theme=light] button,[data-theme=light] input{background-color:#fff;border:1px solid #ccc;color:#000}[data-theme=light] button:hover,[data-theme=light] input:focus{background-color:#f0f0f0;border-color:#999}[data-theme=dark] button,[data-theme=dark] input{background-color:#333;border:1px solid #555;color:#fff}[data-theme=dark] button:hover,[data-theme=dark] input:focus{background-color:#444;border-color:#888}.study-desk-layout{height:100vh}.study-desk-header{background-color:#fff;color:#333;padding:.5rem}.logo{font-weight:700;margin-right:1rem}.logo,.title{font-size:1.5rem}.study-desk-body{display:flex;flex:1 1;overflow:auto}.sidebar{background-color:#f4f4f4;border-right:1px solid #ddd;overflow-y:auto;padding:1rem;transform:translateX(0)}.sidebar li{padding:.5rem 0}.sidebar li ul{margin-left:1rem}.main-content{display:flex;flex:1 1;flex-direction:column}.tabs{border-bottom:1px solid #ddd;display:flex;margin-bottom:1rem}.tabs a{background:none;border:none;cursor:pointer;padding:.5rem 1rem;text-decoration:none}.tabs .active-tab{border-bottom:2px solid #007acc;color:#007acc;font-weight:700}.content{flex:1 1;min-height:calc(100vh - 100px)}.footer{background-color:#f4f4f4;border-top:1px solid #ddd;padding:1rem;text-align:center}.hamburger-menu{margin-right:1rem}.close-sidebar,.hamburger-menu{background:none;border:none;cursor:pointer;display:none;font-size:1.5rem}.close-sidebar{color:#000;margin-bottom:1rem}@media (max-width:768px){.hamburger-menu{display:block}.sidebar{height:100%;left:0;position:fixed;top:0;transform:translateX(-100%);z-index:1000}.sidebar.open{transform:translateX(0)}.close-sidebar{display:block}.tabs{justify-content:center}.main-content{margin-left:0}}@media (max-width:480px){.study-desk-header{flex-direction:column;text-align:center}.tabs button{font-size:.9rem}.main-content,.tabs button{padding:.5rem}}.sidebar li{background-color:transparent;font-weight:400}.sidebar li.active,.sidebar li.active-subitem{background-color:#007acc;color:#fff;font-weight:700;padding-left:5px}.sidebar li.active-subitem a{color:#fff}.sidebar li ul li.active-subitem{background-color:#005fa3;color:#fff;font-weight:700}.study-desk-layout{display:flex;flex-direction:column;min-height:100vh}.study-desk-layout.light{background-color:#fff;color:#000}.study-desk-layout.dark{background-color:#121212;color:#fff}.study-desk-header{align-items:center;box-shadow:0 2px 5px rgba(0,0,0,.1);display:flex;justify-content:space-between;padding:.5rem 1rem}.study-desk-header.light{background-color:#f4f4f4}.study-desk-header.dark{background-color:#333}.sidebar{flex-shrink:0;transition:transform .3s ease;width:250px}.sidebar.light{background-color:#f4f4f4;color:#000}.sidebar.dark{background-color:#333;color:#fff}.sidebar li{margin:.5rem 0}.sidebar ul ul{padding-left:1rem}.main-content{flex-grow:1;padding:1rem}.sidebar ul{list-style:none;margin:0;padding:0}.sidebar li{cursor:pointer;margin:0;padding:.5rem 1rem}.sidebar li.active a{color:#1976d2;font-weight:700}.tabs a.active-tab{border-bottom:2px solid #1976d2;font-weight:700}</style><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NKZN8BZHQV"></script><script>
+      
+      function gaOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/',window[disableStr]=!0}var gaProperty='G-NKZN8BZHQV',disableStr='ga-disable-'+gaProperty;document.cookie.indexOf(disableStr+'=true')>-1&&(window[disableStr]=!0);
+      if(true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NKZN8BZHQV', {"anonymize_ip":true,"send_page_view":false});
+      }
+      </script><link rel="sitemap" type="application/xml" href="/sitemap-index.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="study-desk-layout"><header class="study-desk-header light"><style data-emotion="css 1j75bp2">.css-1j75bp2{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;--IconButton-hoverBg:rgba(0, 0, 0, 0.04);}.css-1j75bp2:hover{background-color:var(--IconButton-hoverBg);}@media (hover: none){.css-1j75bp2:hover{background-color:transparent;}}.css-1j75bp2.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}</style><style data-emotion="css auoq4t">.css-auoq4t{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;--IconButton-hoverBg:rgba(0, 0, 0, 0.04);}.css-auoq4t::-moz-focus-inner{border-style:none;}.css-auoq4t.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-auoq4t{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-auoq4t:hover{background-color:var(--IconButton-hoverBg);}@media (hover: none){.css-auoq4t:hover{background-color:transparent;}}.css-auoq4t.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}</style><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-auoq4t" tabindex="0" type="button" aria-label="open sidebar"><style data-emotion="css 1kdjc5o">.css-1kdjc5o{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;fill:currentColor;font-size:1.5rem;color:#000;}</style><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kdjc5o" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuIcon"><path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path></svg></button><div class="logo" style="color:#666">*_</div><style data-emotion="css reho1b">.css-reho1b{margin:0;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;letter-spacing:0.0075em;color:#000;}</style><h6 class="MuiTypography-root MuiTypography-h6 title css-reho1b">Study Desk</h6></header><style data-emotion="css 14yoxd">.css-14yoxd{z-index:1200;}</style><div class="main-content"><div class="content"><main style="font-family:&#x27;Courier New&#x27;, Courier, monospace;max-width:900px;margin:0 auto;border-radius:8px"><article style="font-size:1rem;line-height:1.8"><h1><strong>Lesson 3: How to Become a Muslim</strong></h1>
+<h3><strong>Description</strong></h3>
+<p>In this lesson, we explore the essential phrases and concepts necessary for understanding how to embrace Islam. The focus will be on learning fundamental Arabic terms, the declaration of faith, and its meaning. This lesson provides the building blocks to express and comprehend the spiritual and linguistic foundation of becoming a Muslim.</p>
+<hr>
+<h2><strong>Section 1: Key Vocabulary and the Declaration of Faith</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>الإسلام</strong> (<em>Al-Islam</em>) = Islam</li>
+<li><strong>مسلم</strong> (<em>Muslim</em>) = Muslim</li>
+<li><strong>الشهادة</strong> (<em>Ash-Shahada</em>) = The testimony of faith</li>
+<li><strong>لا إله إلا الله</strong> (<em>La ilaha illa Allah</em>) = There is no god but Allah</li>
+<li><strong>محمد رسول الله</strong> (<em>Muhammadun Rasool Allah</em>) = Muhammad is the messenger of Allah</li>
+<li><strong>الإيمان</strong> (<em>Al-Iman</em>) = Faith</li>
+<li><strong>التوحيد</strong> (<em>At-Tawheed</em>) = Monotheism</li>
+<li><strong>الله</strong> (<em>Allah</em>) = God</li>
+<li><strong>الدين</strong> (<em>Ad-Deen</em>) = Religion</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>أنا مسلم.</strong><br>
+<em>I am a Muslim.</em><br>
+<em>(Transliteration: Ana Muslim.)</em></p>
+</li>
+<li>
+<p><strong>أشهد أن لا إله إلا الله.</strong><br>
+<em>I bear witness that there is no god but Allah.</em><br>
+<em>(Transliteration: Ash-hadu an la ilaha illa Allah.)</em></p>
+</li>
+<li>
+<p><strong>وأشهد أن محمدًا رسول الله.</strong><br>
+<em>And I bear witness that Muhammad is the messenger of Allah.</em><br>
+<em>(Transliteration: Wa ash-hadu anna Muhammadan Rasool Allah.)</em></p>
+</li>
+<li>
+<p><strong>كيف أصبح مسلماً؟</strong><br>
+<em>How do I become a Muslim?</em><br>
+<em>(Transliteration: Kayfa asbahu Musliman?)</em></p>
+</li>
+<li>
+<p><strong>الإسلام دين التوحيد.</strong><br>
+<em>Islam is the religion of monotheism.</em><br>
+<em>(Transliteration: Al-Islam Deen At-Tawheed.)</em></p>
+</li>
+<li>
+<p><strong>التوحيد أساس الإيمان.</strong><br>
+<em>Monotheism is the foundation of faith.</em><br>
+<em>(Transliteration: At-Tawheed asas Al-Iman.)</em></p>
+</li>
+<li>
+<p><strong>الشهادة هي أول خطوة في الإسلام.</strong><br>
+<em>The testimony of faith is the first step in Islam.</em><br>
+<em>(Transliteration: Ash-Shahada hiya awwal khutwa fi Al-Islam.)</em></p>
+</li>
+<li>
+<p><strong>الله هو الخالق.</strong><br>
+<em>Allah is the Creator.</em><br>
+<em>(Transliteration: Allah huwa Al-Khaliq.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 2: Steps to Becoming a Muslim</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>خطوة</strong> (<em>Khutwa</em>) = Step</li>
+<li><strong>الإسلام دين الحق</strong> (<em>Al-Islam Deen Al-Haq</em>) = Islam is the true religion</li>
+<li><strong>نية</strong> (<em>Niyyah</em>) = Intention</li>
+<li><strong>إخلاص</strong> (<em>Ikhlas</em>) = Sincerity</li>
+<li><strong>توبة</strong> (<em>Tawbah</em>) = Repentance</li>
+<li><strong>طاعة</strong> (<em>Taa’ah</em>) = Obedience</li>
+<li><strong>أركان الإسلام</strong> (<em>Arkan Al-Islam</em>) = The pillars of Islam</li>
+<li><strong>دعاء</strong> (<em>Du’a</em>) = Supplication</li>
+<li><strong>القرآن</strong> (<em>Al-Qur’an</em>) = The Quran</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>الإسلام دين الحق.</strong><br>
+<em>Islam is the true religion.</em><br>
+<em>(Transliteration: Al-Islam Deen Al-Haq.)</em></p>
+</li>
+<li>
+<p><strong>النية أول خطوة في الإسلام.</strong><br>
+<em>Intention is the first step in Islam.</em><br>
+<em>(Transliteration: An-Niyyah awwal khutwa fi Al-Islam.)</em></p>
+</li>
+<li>
+<p><strong>أشهد الشهادة بإخلاص.</strong><br>
+<em>I testify with sincerity.</em><br>
+<em>(Transliteration: Ash-hadu Ash-Shahada bi-Ikhlas.)</em></p>
+</li>
+<li>
+<p><strong>التوبة هي الرجوع إلى الله.</strong><br>
+<em>Repentance is returning to Allah.</em><br>
+<em>(Transliteration: At-Tawbah hiya Ar-Ruju’ ila Allah.)</em></p>
+</li>
+<li>
+<p><strong>الإسلام يقوم على خمس أركان.</strong><br>
+<em>Islam is built upon five pillars.</em><br>
+<em>(Transliteration: Al-Islam yaqum ‘ala khams Arkan.)</em></p>
+</li>
+<li>
+<p><strong>القرآن هو الكتاب المقدس في الإسلام.</strong><br>
+<em>The Quran is the holy book in Islam.</em><br>
+<em>(Transliteration: Al-Qur’an huwa Al-Kitab Al-Muqaddas fi Al-Islam.)</em></p>
+</li>
+<li>
+<p><strong>الدعاء طريقة للتقرب من الله.</strong><br>
+<em>Supplication is a way to draw closer to Allah.</em><br>
+<em>(Transliteration: Ad-Du’a tareeqa lil-taqarrub min Allah.)</em></p>
+</li>
+<li>
+<p><strong>أركان الإسلام هي الشهادة، الصلاة، الزكاة، الصيام، والحج.</strong><br>
+<em>The pillars of Islam are the testimony, prayer, charity, fasting, and pilgrimage.</em><br>
+<em>(Transliteration: Arkan Al-Islam hiya Ash-Shahada, As-Salah, Az-Zakah, As-Sawm, wal-Hajj.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 3: Understanding the Five Pillars of Islam</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>شهادة</strong> (<em>Shahada</em>) = Declaration of faith</li>
+<li><strong>صلاة</strong> (<em>Salah</em>) = Prayer</li>
+<li><strong>زكاة</strong> (<em>Zakah</em>) = Charity</li>
+<li><strong>صيام</strong> (<em>Sawm</em>) = Fasting</li>
+<li><strong>حج</strong> (<em>Hajj</em>) = Pilgrimage</li>
+<li><strong>ركن</strong> (<em>Rukn</em>) = Pillar</li>
+<li><strong>عبادة</strong> (<em>Ibadah</em>) = Worship</li>
+<li><strong>فرض</strong> (<em>Fard</em>) = Obligation</li>
+<li><strong>يوم القيامة</strong> (<em>Yawm Al-Qiyamah</em>) = Day of Judgment</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>الشهادة هي أول ركن من أركان الإسلام.</strong><br>
+<em>The declaration of faith is the first pillar of Islam.</em><br>
+<em>(Transliteration: Ash-Shahada hiya awwal rukn min Arkan Al-Islam.)</em></p>
+</li>
+<li>
+<p><strong>الصلاة خمس مرات في اليوم فرض على كل مسلم.</strong><br>
+<em>Praying five times a day is an obligation for every Muslim.</em><br>
+<em>(Transliteration: As-Salah khams marat fi Al-Yawm fard ‘ala kull Muslim.)</em></p>
+</li>
+<li>
+<p><strong>الزكاة تساعد المحتاجين وتطهر المال.</strong><br>
+<em>Charity helps the needy and purifies wealth.</em><br>
+<em>(Transliteration: Az-Zakah tusa’id Al-Muhtajeen wa tutahhir Al-Mal.)</em></p>
+</li>
+<li>
+<p><strong>الصيام في رمضان عبادة عظيمة.</strong><br>
+<em>Fasting in Ramadan is a great act of worship.</em><br>
+<em>(Transliteration: As-Sawm fi Ramadan Ibadah Azimah.)</em></p>
+</li>
+<li>
+<p><strong>الحج إلى مكة واجب مرة واحدة في العمر.</strong><br>
+<em>The pilgrimage to Mecca is an obligation once in a lifetime.</em><br>
+<em>(Transliteration: Al-Hajj ila Makkah wajib marrah wahidah fi Al-Umr.)</em></p>
+</li>
+<li>
+<p><strong>أركان الإسلام تساعد المسلم على العبادة والتقوى.</strong><br>
+<em>The pillars of Islam help a Muslim in worship and piety.</em><br>
+<em>(Transliteration: Arkan Al-Islam tusa’id Al-Muslim ‘ala Al-Ibadah wa At-Taqwa.)</em></p>
+</li>
+<li>
+<p><strong>الصلاة قربى إلى الله.</strong><br>
+<em>Prayer is a means of drawing closer to Allah.</em><br>
+<em>(Transliteration: As-Salah Qurbah ila Allah.)</em></p>
+</li>
+<li>
+<p><strong>الصيام يعلم الصبر والإخلاص.</strong><br>
+<em>Fasting teaches patience and sincerity.</em><br>
+<em>(Transliteration: As-Sawm yu’allim As-Sabr wa Al-Ikhlas.)</em></p>
+</li>
+<li>
+<p><strong>الزكاة فريضة لكل من يملك النصاب.</strong><br>
+<em>Charity is obligatory for everyone who meets the threshold of wealth.</em><br>
+<em>(Transliteration: Az-Zakah fareedah likull man yamlik An-Nisab.)</em></p>
+</li>
+<li>
+<p><strong>الحج يذكرنا بيوم القيامة.</strong><br>
+<em>The pilgrimage reminds us of the Day of Judgment.</em><br>
+<em>(Transliteration: Al-Hajj yudhakkiruna bi-Yawm Al-Qiyamah.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 4: Basic Supplications (Du’a) and Daily Worship</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>دعاء</strong> (<em>Du’a</em>) = Supplication</li>
+<li><strong>ذكر</strong> (<em>Dhikr</em>) = Remembrance (of Allah)</li>
+<li><strong>الحمد لله</strong> (<em>Alhamdulillah</em>) = Praise be to Allah</li>
+<li><strong>سبحان الله</strong> (<em>Subhanallah</em>) = Glory be to Allah</li>
+<li><strong>الله أكبر</strong> (<em>Allahu Akbar</em>) = Allah is the Greatest</li>
+<li><strong>أستغفر الله</strong> (<em>Astaghfirullah</em>) = I seek forgiveness from Allah</li>
+<li><strong>بسم الله</strong> (<em>Bismillah</em>) = In the name of Allah</li>
+<li><strong>توكلت على الله</strong> (<em>Tawakkaltu ‘ala Allah</em>) = I rely upon Allah</li>
+<li><strong>إن شاء الله</strong> (<em>Insha’Allah</em>) = If Allah wills</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>بسم الله قبل كل عمل.</strong><br>
+<em>Say "In the name of Allah" before every action.</em><br>
+<em>(Transliteration: Bismillah qabl kull ‘amal.)</em></p>
+</li>
+<li>
+<p><strong>الحمد لله بعد الطعام.</strong><br>
+<em>Say "Praise be to Allah" after eating.</em><br>
+<em>(Transliteration: Alhamdulillah ba’d At-Ta’am.)</em></p>
+</li>
+<li>
+<p><strong>سبحان الله عند رؤية جمال الطبيعة.</strong><br>
+<em>Say "Glory be to Allah" when witnessing the beauty of nature.</em><br>
+<em>(Transliteration: Subhanallah ‘inda ru’yat jamal At-Tabi’ah.)</em></p>
+</li>
+<li>
+<p><strong>الله أكبر عند بدء الصلاة.</strong><br>
+<em>Say "Allah is the Greatest" when starting the prayer.</em><br>
+<em>(Transliteration: Allahu Akbar ‘inda bidayat As-Salah.)</em></p>
+</li>
+<li>
+<p><strong>أستغفر الله بعد الذنب.</strong><br>
+<em>Say "I seek forgiveness from Allah" after committing a sin.</em><br>
+<em>(Transliteration: Astaghfirullah ba’d Adh-Dhanb.)</em></p>
+</li>
+<li>
+<p><strong>توكلت على الله في كل أمر.</strong><br>
+<em>I rely upon Allah in all matters.</em><br>
+<em>(Transliteration: Tawakkaltu ‘ala Allah fi kull Amr.)</em></p>
+</li>
+<li>
+<p><strong>إن شاء الله سأفعل ذلك غداً.</strong><br>
+<em>If Allah wills, I will do it tomorrow.</em><br>
+<em>(Transliteration: Insha’Allah sa’afa’al dhalik ghadan.)</em></p>
+</li>
+<li>
+<p><strong>ذكر الله يطمئن القلب.</strong><br>
+<em>The remembrance of Allah brings tranquility to the heart.</em><br>
+<em>(Transliteration: Dhikr Allah yutma’inn Al-Qalb.)</em></p>
+</li>
+<li>
+<p><strong>الدعاء قوة المؤمن.</strong><br>
+<em>Supplication is the strength of the believer.</em><br>
+<em>(Transliteration: Ad-Du’a quwwat Al-Mu’min.)</em></p>
+</li>
+<li>
+<p><strong>الحمد لله على كل حال.</strong><br>
+<em>Praise be to Allah in all circumstances.</em><br>
+<em>(Transliteration: Alhamdulillah ‘ala kull hal.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 5: Daily Practices and Etiquettes in Islam</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>طهارة</strong> (<em>Tahara</em>) = Purity/Cleanliness</li>
+<li><strong>وضوء</strong> (<em>Wudu</em>) = Ablution</li>
+<li><strong>غسل</strong> (<em>Ghusl</em>) = Ritual purification</li>
+<li><strong>الصلاة في وقتها</strong> (<em>As-Salah fi Waqtiha</em>) = Praying on time</li>
+<li><strong>سلام</strong> (<em>Salam</em>) = Peace/Greeting</li>
+<li><strong>الأذكار الصباحية</strong> (<em>Adhkar As-Sabahiyah</em>) = Morning remembrances</li>
+<li><strong>الأذكار المسائية</strong> (<em>Adhkar Al-Masa’iyah</em>) = Evening remembrances</li>
+<li><strong>الإحسان</strong> (<em>Al-Ihsan</em>) = Excellence</li>
+<li><strong>الحياء</strong> (<em>Al-Haya’</em>) = Modesty</li>
+<li><strong>بر الوالدين</strong> (<em>Birr Al-Walidayn</em>) = Kindness to parents</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>الإسلام دين الطهارة والنظافة.</strong><br>
+<em>Islam is a religion of purity and cleanliness.</em><br>
+<em>(Transliteration: Al-Islam Deen At-Tahara wa An-Nazafa.)</em></p>
+</li>
+<li>
+<p><strong>الوضوء شرط للصلاة.</strong><br>
+<em>Ablution is a requirement for prayer.</em><br>
+<em>(Transliteration: Al-Wudu shart lis-Salah.)</em></p>
+</li>
+<li>
+<p><strong>الغسل واجب في بعض الحالات.</strong><br>
+<em>Ritual purification is obligatory in certain situations.</em><br>
+<em>(Transliteration: Al-Ghusl wajib fi ba’d Al-Halat.)</em></p>
+</li>
+<li>
+<p><strong>أدِّ الصلاة في وقتها.</strong><br>
+<em>Perform the prayer on time.</em><br>
+<em>(Transliteration: Addi As-Salah fi Waqtiha.)</em></p>
+</li>
+<li>
+<p><strong>ابدأ يومك بالأذكار الصباحية.</strong><br>
+<em>Start your day with the morning remembrances.</em><br>
+<em>(Transliteration: Ibda’ Yawmak bil-Adhkar As-Sabahiyah.)</em></p>
+</li>
+<li>
+<p><strong>أنه يومك بالأذكار المسائية.</strong><br>
+<em>End your day with the evening remembrances.</em><br>
+<em>(Transliteration: Anhi Yawmak bil-Adhkar Al-Masa’iyah.)</em></p>
+</li>
+<li>
+<p><strong>الإحسان في العمل عبادة.</strong><br>
+<em>Excellence in work is an act of worship.</em><br>
+<em>(Transliteration: Al-Ihsan fi Al-‘Amal ‘Ibadah.)</em></p>
+</li>
+<li>
+<p><strong>الحياء من الإيمان.</strong><br>
+<em>Modesty is part of faith.</em><br>
+<em>(Transliteration: Al-Haya’ min Al-Iman.)</em></p>
+</li>
+<li>
+<p><strong>بر الوالدين واجب على كل مسلم.</strong><br>
+<em>Kindness to parents is obligatory upon every Muslim.</em><br>
+<em>(Transliteration: Birr Al-Walidayn wajib ‘ala kull Muslim.)</em></p>
+</li>
+<li>
+<p><strong>ابدأ كل لقاء بالسلام.</strong><br>
+<em>Begin every meeting with peace.</em><br>
+<em>(Transliteration: Ibda’ kull liqa’ bis-Salam.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 6: Core Beliefs in Islam (Aqeedah)</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>عقيدة</strong> (<em>Aqeedah</em>) = Creed/Belief</li>
+<li><strong>الإيمان بالله</strong> (<em>Al-Iman Billah</em>) = Belief in Allah</li>
+<li><strong>الإيمان بالملائكة</strong> (<em>Al-Iman bil-Mala’ikah</em>) = Belief in the angels</li>
+<li><strong>الإيمان بالكتب</strong> (<em>Al-Iman bil-Kutub</em>) = Belief in the books</li>
+<li><strong>الإيمان بالرسل</strong> (<em>Al-Iman bil-Rusul</em>) = Belief in the messengers</li>
+<li><strong>الإيمان باليوم الآخر</strong> (<em>Al-Iman bil-Yawm Al-Akhir</em>) = Belief in the Last Day</li>
+<li><strong>الإيمان بالقدر</strong> (<em>Al-Iman bil-Qadr</em>) = Belief in divine decree</li>
+<li><strong>الغيبيات</strong> (<em>Al-Ghaybiyyat</em>) = Unseen matters</li>
+<li><strong>التوحيد</strong> (<em>At-Tawheed</em>) = Monotheism</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>عقيدة الإسلام تقوم على الإيمان بالله وحده.</strong><br>
+<em>The creed of Islam is based on belief in Allah alone.</em><br>
+<em>(Transliteration: Aqeedat Al-Islam taqoom ‘ala Al-Iman Billah Wahdahu.)</em></p>
+</li>
+<li>
+<p><strong>الإيمان بالملائكة جزء من العقيدة الإسلامية.</strong><br>
+<em>Belief in angels is part of the Islamic creed.</em><br>
+<em>(Transliteration: Al-Iman bil-Mala’ikah juz’ min Al-Aqeedah Al-Islamiyyah.)</em></p>
+</li>
+<li>
+<p><strong>الإيمان بالكتب يعني الإيمان بالقرآن والكتب السابقة.</strong><br>
+<em>Belief in the books means belief in the Quran and previous scriptures.</em><br>
+<em>(Transliteration: Al-Iman bil-Kutub ya’ni Al-Iman bil-Qur’an wal-Kutub As-Sabiqah.)</em></p>
+</li>
+<li>
+<p><strong>الرسل هم الذين أرسلهم الله لهداية الناس.</strong><br>
+<em>The messengers are those sent by Allah to guide people.</em><br>
+<em>(Transliteration: Ar-Rusul hum alladhina arsalahum Allah li-hidayat An-Nas.)</em></p>
+</li>
+<li>
+<p><strong>الإيمان باليوم الآخر يعني الإيمان بالحساب والجنة والنار.</strong><br>
+<em>Belief in the Last Day means belief in accountability, Paradise, and Hell.</em><br>
+<em>(Transliteration: Al-Iman bil-Yawm Al-Akhir ya’ni Al-Iman bil-Hisab wal-Jannah wan-Nar.)</em></p>
+</li>
+<li>
+<p><strong>الإيمان بالقدر يشمل الخير والشر.</strong><br>
+<em>Belief in divine decree includes both good and bad.</em><br>
+<em>(Transliteration: Al-Iman bil-Qadr yashmal Al-Khayr wash-Sharr.)</em></p>
+</li>
+<li>
+<p><strong>التوحيد هو الأساس الأول في الإسلام.</strong><br>
+<em>Monotheism is the first foundation in Islam.</em><br>
+<em>(Transliteration: At-Tawheed huwa Al-Asas Al-Awwal fi Al-Islam.)</em></p>
+</li>
+<li>
+<p><strong>الغيبيات تشمل ما لا نراه ولكن نؤمن به.</strong><br>
+<em>The unseen matters include what we do not see but believe in.</em><br>
+<em>(Transliteration: Al-Ghaybiyyat tashmal ma la nara lakin nu’min bihi.)</em></p>
+</li>
+<li>
+<p><strong>الإيمان بالله يعني الاعتقاد بأنه الخالق والمدبر.</strong><br>
+<em>Belief in Allah means believing that He is the Creator and Sustainer.</em><br>
+<em>(Transliteration: Al-Iman Billah ya’ni Al-I’tiqad bi-annahu Al-Khaliq wal-Mudabbir.)</em></p>
+</li>
+<li>
+<p><strong>الإيمان بالرسل يجعلنا نقتدي بسيرتهم.</strong><br>
+<em>Belief in the messengers inspires us to follow their example.</em><br>
+<em>(Transliteration: Al-Iman bil-Rusul yaj’aluna naqtadi bi-seeratihim.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 7: The Importance of Prayer (Salah)</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>الصلاة</strong> (<em>As-Salah</em>) = Prayer</li>
+<li><strong>ركعة</strong> (<em>Raka’ah</em>) = Unit of prayer</li>
+<li><strong>قبلة</strong> (<em>Qiblah</em>) = Direction of prayer (toward the Kaaba in Mecca)</li>
+<li><strong>سجود</strong> (<em>Sujood</em>) = Prostration</li>
+<li><strong>نية</strong> (<em>Niyyah</em>) = Intention</li>
+<li><strong>الفجر</strong> (<em>Al-Fajr</em>) = Dawn prayer</li>
+<li><strong>الظهر</strong> (<em>Adh-Dhuhr</em>) = Noon prayer</li>
+<li><strong>العصر</strong> (<em>Al-Asr</em>) = Afternoon prayer</li>
+<li><strong>المغرب</strong> (<em>Al-Maghrib</em>) = Sunset prayer</li>
+<li><strong>العشاء</strong> (<em>Al-Isha</em>) = Night prayer</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>الصلاة عمود الدين.</strong><br>
+<em>Prayer is the pillar of the religion.</em><br>
+<em>(Transliteration: As-Salah Amood Ad-Deen.)</em></p>
+</li>
+<li>
+<p><strong>يجب أداء الصلاة خمس مرات في اليوم.</strong><br>
+<em>Prayer must be performed five times a day.</em><br>
+<em>(Transliteration: Yajibu Ada’ As-Salah khams marat fi Al-Yawm.)</em></p>
+</li>
+<li>
+<p><strong>القبلة هي الاتجاه نحو الكعبة.</strong><br>
+<em>The Qiblah is the direction toward the Kaaba.</em><br>
+<em>(Transliteration: Al-Qiblah hiya Al-Ittijah nahwa Al-Ka’bah.)</em></p>
+</li>
+<li>
+<p><strong>سجود الصلاة يقربنا من الله.</strong><br>
+<em>The prostration in prayer brings us closer to Allah.</em><br>
+<em>(Transliteration: Sujood As-Salah yuqarribuna min Allah.)</em></p>
+</li>
+<li>
+<p><strong>النية شرط أساسي لصحة الصلاة.</strong><br>
+<em>The intention is a fundamental condition for the validity of prayer.</em><br>
+<em>(Transliteration: An-Niyyah shart asasiy li-sihat As-Salah.)</em></p>
+</li>
+<li>
+<p><strong>الفجر أول صلاة في اليوم.</strong><br>
+<em>The dawn prayer is the first prayer of the day.</em><br>
+<em>(Transliteration: Al-Fajr awwal Salah fi Al-Yawm.)</em></p>
+</li>
+<li>
+<p><strong>صلاة المغرب تكون عند غروب الشمس.</strong><br>
+<em>The Maghrib prayer is performed at sunset.</em><br>
+<em>(Transliteration: Salah Al-Maghrib takoon ‘inda ghuroob Ash-Shams.)</em></p>
+</li>
+<li>
+<p><strong>الصلاة تعلمنا الصبر والطاعة.</strong><br>
+<em>Prayer teaches us patience and obedience.</em><br>
+<em>(Transliteration: As-Salah tu’allimuna As-Sabr wat-Taa’ah.)</em></p>
+</li>
+<li>
+<p><strong>الوضوء شرط قبل أداء الصلاة.</strong><br>
+<em>Ablution is a requirement before performing prayer.</em><br>
+<em>(Transliteration: Al-Wudu shart qabl Ada’ As-Salah.)</em></p>
+</li>
+<li>
+<p><strong>العشاء هي الصلاة الأخيرة في اليوم.</strong><br>
+<em>Isha is the last prayer of the day.</em><br>
+<em>(Transliteration: Al-Isha hiya As-Salah Al-Akheerah fi Al-Yawm.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 8: Islamic Phrases and Their Everyday Usage</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>السلام عليكم</strong> (<em>As-Salamu Alaikum</em>) = Peace be upon you</li>
+<li><strong>وعليكم السلام</strong> (<em>Wa Alaikum As-Salam</em>) = And peace be upon you</li>
+<li><strong>جزاك الله خيراً</strong> (<em>Jazakallahu Khairan</em>) = May Allah reward you with goodness</li>
+<li><strong>بارك الله فيك</strong> (<em>Barakallahu Feek</em>) = May Allah bless you</li>
+<li><strong>إن شاء الله</strong> (<em>Insha’Allah</em>) = If Allah wills</li>
+<li><strong>الحمد لله</strong> (<em>Alhamdulillah</em>) = Praise be to Allah</li>
+<li><strong>سبحان الله</strong> (<em>Subhanallah</em>) = Glory be to Allah</li>
+<li><strong>ما شاء الله</strong> (<em>Masha’Allah</em>) = As Allah has willed</li>
+<li><strong>الله أكبر</strong> (<em>Allahu Akbar</em>) = Allah is the Greatest</li>
+<li><strong>أستغفر الله</strong> (<em>Astaghfirullah</em>) = I seek forgiveness from Allah</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>السلام عليكم ورحمة الله وبركاته.</strong><br>
+<em>Peace, mercy, and blessings of Allah be upon you.</em><br>
+<em>(Transliteration: As-Salamu Alaikum wa Rahmatullahi wa Barakatuh.)</em></p>
+</li>
+<li>
+<p><strong>وعليكم السلام ورحمة الله وبركاته.</strong><br>
+<em>And peace, mercy, and blessings of Allah be upon you.</em><br>
+<em>(Transliteration: Wa Alaikum As-Salam wa Rahmatullahi wa Barakatuh.)</em></p>
+</li>
+<li>
+<p><strong>جزاك الله خيراً على مساعدتك.</strong><br>
+<em>May Allah reward you with goodness for your help.</em><br>
+<em>(Transliteration: Jazakallahu Khairan ‘ala musaadatik.)</em></p>
+</li>
+<li>
+<p><strong>بارك الله فيك وفي عائلتك.</strong><br>
+<em>May Allah bless you and your family.</em><br>
+<em>(Transliteration: Barakallahu Feek wa fi ‘A’ilatik.)</em></p>
+</li>
+<li>
+<p><strong>إن شاء الله سأزورك غداً.</strong><br>
+<em>If Allah wills, I will visit you tomorrow.</em><br>
+<em>(Transliteration: Insha’Allah sa’azuruka ghadan.)</em></p>
+</li>
+<li>
+<p><strong>الحمد لله على هذه النعمة.</strong><br>
+<em>Praise be to Allah for this blessing.</em><br>
+<em>(Transliteration: Alhamdulillah ‘ala hadhihi An-Ni’mah.)</em></p>
+</li>
+<li>
+<p><strong>سبحان الله! السماء جميلة جداً.</strong><br>
+<em>Glory be to Allah! The sky is so beautiful.</em><br>
+<em>(Transliteration: Subhanallah! As-Sama’ jamilah jiddan.)</em></p>
+</li>
+<li>
+<p><strong>ما شاء الله، عملك رائع.</strong><br>
+<em>As Allah has willed, your work is amazing.</em><br>
+<em>(Transliteration: Masha’Allah, ‘amaluka ra’i’.)</em></p>
+</li>
+<li>
+<p><strong>الله أكبر، إنه وقت الصلاة.</strong><br>
+<em>Allah is the Greatest, it is time for prayer.</em><br>
+<em>(Transliteration: Allahu Akbar, innahu waqt As-Salah.)</em></p>
+</li>
+<li>
+<p><strong>أستغفر الله على أخطائي.</strong><br>
+<em>I seek forgiveness from Allah for my mistakes.</em><br>
+<em>(Transliteration: Astaghfirullah ‘ala akhta’i.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 9: Etiquettes and Behavior in Islam</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>أخلاق</strong> (<em>Akhlaq</em>) = Ethics/Morals</li>
+<li><strong>أدب</strong> (<em>Adab</em>) = Manners/Etiquette</li>
+<li><strong>الصدق</strong> (<em>As-Sidq</em>) = Truthfulness</li>
+<li><strong>الأمانة</strong> (<em>Al-Amanah</em>) = Trustworthiness</li>
+<li><strong>التواضع</strong> (<em>At-Tawadhu’</em>) = Humility</li>
+<li><strong>العدل</strong> (<em>Al-Adl</em>) = Justice</li>
+<li><strong>الصبر</strong> (<em>As-Sabr</em>) = Patience</li>
+<li><strong>الاحترام</strong> (<em>Al-Ihtiram</em>) = Respect</li>
+<li><strong>الإحسان</strong> (<em>Al-Ihsan</em>) = Excellence</li>
+<li><strong>الحياء</strong> (<em>Al-Haya’</em>) = Modesty</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>الإسلام دين الأخلاق الحميدة.</strong><br>
+<em>Islam is a religion of good morals.</em><br>
+<em>(Transliteration: Al-Islam Deen Al-Akhlaq Al-Hamidah.)</em></p>
+</li>
+<li>
+<p><strong>الأدب في الكلام يعكس شخصية المسلم.</strong><br>
+<em>Good manners in speech reflect a Muslim’s character.</em><br>
+<em>(Transliteration: Al-Adab fil-Kalam ya’kis shakhsiyyat Al-Muslim.)</em></p>
+</li>
+<li>
+<p><strong>الصدق يؤدي إلى الجنة.</strong><br>
+<em>Truthfulness leads to Paradise.</em><br>
+<em>(Transliteration: As-Sidq yu’addi ila Al-Jannah.)</em></p>
+</li>
+<li>
+<p><strong>الأمانة من صفات المؤمن.</strong><br>
+<em>Trustworthiness is a trait of the believer.</em><br>
+<em>(Transliteration: Al-Amanah min Sifaat Al-Mu’min.)</em></p>
+</li>
+<li>
+<p><strong>التواضع يجلب محبة الناس.</strong><br>
+<em>Humility brings people’s love.</em><br>
+<em>(Transliteration: At-Tawadhu’ yajlib mahabbat An-Nas.)</em></p>
+</li>
+<li>
+<p><strong>العدل أساس المجتمع الإسلامي.</strong><br>
+<em>Justice is the foundation of an Islamic society.</em><br>
+<em>(Transliteration: Al-Adl asas Al-Mujtama’ Al-Islami.)</em></p>
+</li>
+<li>
+<p><strong>الصبر عند المصيبة من علامات الإيمان.</strong><br>
+<em>Patience during hardship is a sign of faith.</em><br>
+<em>(Transliteration: As-Sabr ‘inda Al-Museebah min ‘Alamat Al-Iman.)</em></p>
+</li>
+<li>
+<p><strong>الاحترام واجب لكل الناس.</strong><br>
+<em>Respect is obligatory for everyone.</em><br>
+<em>(Transliteration: Al-Ihtiram wajib likull An-Nas.)</em></p>
+</li>
+<li>
+<p><strong>الإحسان في العمل عبادة.</strong><br>
+<em>Excellence in work is an act of worship.</em><br>
+<em>(Transliteration: Al-Ihsan fi Al-‘Amal Ibadah.)</em></p>
+</li>
+<li>
+<p><strong>الحياء زينة المرأة والرجل.</strong><br>
+<em>Modesty is an adornment for both women and men.</em><br>
+<em>(Transliteration: Al-Haya’ zinah lil-Mar’ah wal-Rajul.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Section 10: Embracing Islam and Building Faith</strong></h2>
+<h3><strong>Glossary</strong></h3>
+<ul>
+<li><strong>إيمان</strong> (<em>Iman</em>) = Faith</li>
+<li><strong>توبة</strong> (<em>Tawbah</em>) = Repentance</li>
+<li><strong>تقوى</strong> (<em>Taqwa</em>) = God-consciousness</li>
+<li><strong>هدى</strong> (<em>Huda</em>) = Guidance</li>
+<li><strong>إخلاص</strong> (<em>Ikhlas</em>) = Sincerity</li>
+<li><strong>علم</strong> (<em>Ilm</em>) = Knowledge</li>
+<li><strong>ذكر الله</strong> (<em>Dhikr Allah</em>) = Remembrance of Allah</li>
+<li><strong>يقين</strong> (<em>Yaqeen</em>) = Certainty</li>
+<li><strong>عبادة</strong> (<em>Ibadah</em>) = Worship</li>
+<li><strong>جنة</strong> (<em>Jannah</em>) = Paradise</li>
+</ul>
+<br />
+<h3><strong>Sentences</strong></h3>
+<ol>
+<li>
+<p><strong>الإيمان بالله أساس الإسلام.</strong><br>
+<em>Belief in Allah is the foundation of Islam.</em><br>
+<em>(Transliteration: Al-Iman Billah asas Al-Islam.)</em></p>
+</li>
+<li>
+<p><strong>التوبة تجلب رحمة الله.</strong><br>
+<em>Repentance brings Allah’s mercy.</em><br>
+<em>(Transliteration: At-Tawbah tajlib Rahmat Allah.)</em></p>
+</li>
+<li>
+<p><strong>التقوى تجعل القلب قريباً من الله.</strong><br>
+<em>God-consciousness makes the heart closer to Allah.</em><br>
+<em>(Transliteration: At-Taqwa taj’al Al-Qalb qareeban min Allah.)</em></p>
+</li>
+<li>
+<p><strong>طلب الهداية واجب في كل صلاة.</strong><br>
+<em>Seeking guidance is obligatory in every prayer.</em><br>
+<em>(Transliteration: Talab Al-Huda wajib fi kull Salah.)</em></p>
+</li>
+<li>
+<p><strong>الإخلاص في العبادة سر القبول.</strong><br>
+<em>Sincerity in worship is the secret of acceptance.</em><br>
+<em>(Transliteration: Al-Ikhlas fil-Ibadah sirr Al-Qubool.)</em></p>
+</li>
+<li>
+<p><strong>طلب العلم طريق إلى الجنة.</strong><br>
+<em>Seeking knowledge is a path to Paradise.</em><br>
+<em>(Transliteration: Talab Al-‘Ilm tareeq ila Al-Jannah.)</em></p>
+</li>
+<li>
+<p><strong>ذكر الله يملأ القلب بالطمأنينة.</strong><br>
+<em>The remembrance of Allah fills the heart with tranquility.</em><br>
+<em>(Transliteration: Dhikr Allah yaml’ Al-Qalb bil-Tuma’ninah.)</em></p>
+</li>
+<li>
+<p><strong>اليقين يثبت الإيمان.</strong><br>
+<em>Certainty strengthens faith.</em><br>
+<em>(Transliteration: Al-Yaqeen yuthabbit Al-Iman.)</em></p>
+</li>
+<li>
+<p><strong>العبادة تقربنا إلى الله.</strong><br>
+<em>Worship brings us closer to Allah.</em><br>
+<em>(Transliteration: Al-Ibadah tuqarribuna ila Allah.)</em></p>
+</li>
+<li>
+<p><strong>الجنة هي الجزاء للمؤمنين الصالحين.</strong><br>
+<em>Paradise is the reward for the righteous believers.</em><br>
+<em>(Transliteration: Al-Jannah hiya Al-Jaza’ lil-Mu’mineen As-Saliheen.)</em></p>
+</li>
+</ol>
+<hr>
+<h2><strong>Grammar Lesson: Understanding Sentence Construction in Arabic</strong></h2>
+<h3><strong>Objective</strong></h3>
+<p>Learn the grammatical structures used in expressing faith, basic Islamic concepts, and daily supplications, focusing on noun phrases, verb conjugation, and the use of prepositions.</p>
+<hr>
+<h3><strong>1. The Nominal Sentence (الجملة الاسمية)</strong></h3>
+<p>A <strong>Nominal Sentence</strong> begins with a noun or pronoun and typically describes a state or provides information. This structure is commonly used in Islamic declarations and phrases.</p>
+<ul>
+<li><strong>Structure</strong>: <em>Subject (مبتدأ) + Predicate (خبر)</em></li>
+</ul>
+<h4>Examples:</h4>
+<ol>
+<li>
+<p><strong>الإيمان بالله أساس الإسلام.</strong><br>
+<em>Belief in Allah is the foundation of Islam.</em></p>
+<ul>
+<li><strong>Subject:</strong> الإيمان (Al-Iman)</li>
+<li><strong>Predicate:</strong> أساس الإسلام (Asas Al-Islam)</li>
+</ul>
+</li>
+<li>
+<p><strong>الجنة هي الجزاء للمؤمنين الصالحين.</strong><br>
+<em>Paradise is the reward for the righteous believers.</em></p>
+<ul>
+<li><strong>Subject:</strong> الجنة (Al-Jannah)</li>
+<li><strong>Predicate:</strong> هي الجزاء للمؤمنين (Hiya Al-Jaza’ lil-Mu’mineen)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>2. The Verbal Sentence (الجملة الفعلية)</strong></h3>
+<p>A <strong>Verbal Sentence</strong> starts with a verb, followed by a subject and sometimes an object or complement. It emphasizes actions or processes, such as acts of worship or divine attributes.</p>
+<ul>
+<li><strong>Structure</strong>: <em>Verb (فعل) + Subject (فاعل) + Object (مفعول به)</em></li>
+</ul>
+<h4>Examples:</h4>
+<ol>
+<li>
+<p><strong>ذكر الله يملأ القلب بالطمأنينة.</strong><br>
+<em>The remembrance of Allah fills the heart with tranquility.</em></p>
+<ul>
+<li><strong>Verb:</strong> يملأ (Yaml’)</li>
+<li><strong>Subject:</strong> ذكر الله (Dhikr Allah)</li>
+<li><strong>Object:</strong> القلب (Al-Qalb)</li>
+</ul>
+</li>
+<li>
+<p><strong>التوبة تجلب رحمة الله.</strong><br>
+<em>Repentance brings Allah’s mercy.</em></p>
+<ul>
+<li><strong>Verb:</strong> تجلب (Tajlib)</li>
+<li><strong>Subject:</strong> التوبة (At-Tawbah)</li>
+<li><strong>Object:</strong> رحمة الله (Rahmat Allah)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>3. Prepositions (حروف الجر)</strong></h3>
+<p>Prepositions play a critical role in connecting nouns to verbs or other nouns, expressing relationships such as place, time, or purpose.</p>
+<h4>Common Prepositions:</h4>
+<ul>
+<li><strong>بِـ</strong> (<em>bi-</em>) = With/By</li>
+<li><strong>فِي</strong> (<em>fi-</em>) = In</li>
+<li><strong>إِلَى</strong> (<em>ila-</em>) = To</li>
+<li><strong>مِن</strong> (<em>min</em>) = From</li>
+</ul>
+<h4>Examples:</h4>
+<ol>
+<li>
+<p><strong>ذكر الله في الصلاة.</strong><br>
+<em>The remembrance of Allah in prayer.</em></p>
+<ul>
+<li><strong>Preposition:</strong> في (Fi)</li>
+</ul>
+</li>
+<li>
+<p><strong>الإيمان بالله.</strong><br>
+<em>Belief in Allah.</em></p>
+<ul>
+<li><strong>Preposition:</strong> بـِ (Bi)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>4. Emphasis with Nominal Pronouns</strong></h3>
+<p>Arabic frequently uses pronouns like <strong>هو</strong> (<em>huwa</em>) and <strong>هي</strong> (<em>hiya</em>) for emphasis in nominal sentences.</p>
+<h4>Examples:</h4>
+<ol>
+<li>
+<p><strong>الإخلاص في العبادة سر القبول.</strong><br>
+<em>Sincerity in worship is the secret of acceptance.</em></p>
+<ul>
+<li>Implied pronoun <strong>هو</strong> (Huwa) before "سر القبول."</li>
+</ul>
+</li>
+<li>
+<p><strong>الله هو الخالق.</strong><br>
+<em>Allah is the Creator.</em></p>
+<ul>
+<li><strong>هو</strong> (Huwa) emphasizes that Allah is the sole Creator.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>5. Possessive Constructs (الإضافة)</strong></h3>
+<p>The <strong>Idafah</strong> structure shows possession or a relationship between two nouns. It is used to express phrases like “the book of Allah” or “the mercy of Allah.”</p>
+<h4>Examples:</h4>
+<ol>
+<li>
+<p><strong>الإسلام دين التوحيد.</strong><br>
+<em>Islam is the religion of monotheism.</em></p>
+<ul>
+<li><strong>دين التوحيد</strong> (Deen At-Tawheed) = The religion of monotheism</li>
+</ul>
+</li>
+<li>
+<p><strong>رحمة الله.</strong><br>
+<em>The mercy of Allah.</em></p>
+<ul>
+<li><strong>رحمة</strong> (Rahmah) = Mercy</li>
+<li><strong>الله</strong> (Allah) = Of Allah</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>6. Using Verbs for Daily Actions</strong></h3>
+<p>Daily phrases often involve verbs in the present tense to describe habitual or continuous actions.</p>
+<h4>Examples:</h4>
+<ol>
+<li>
+<p><strong>أستغفر الله بعد الذنب.</strong><br>
+<em>I seek forgiveness from Allah after committing a sin.</em></p>
+<ul>
+<li><strong>Verb:</strong> أستغفر (Astaghfir)</li>
+</ul>
+</li>
+<li>
+<p><strong>الحمد لله على كل حال.</strong><br>
+<em>Praise be to Allah in all circumstances.</em></p>
+<ul>
+<li><strong>Verb:</strong> الحمد (Alhamdu - Praise be)</li>
+</ul>
+</li>
+</ol></article><footer style="margin-top:3rem;text-align:center;font-size:0.9rem"><p>© <!-- -->2025<!-- --> Star Underscore. All rights reserved.</p><p style="font-size:0.8rem">Explore more about Star Underscore on our<!-- --> <a href="/" style="text-decoration:none;font-weight:bold">Homepage</a>.</p></footer></main></div><footer style="background-color:#f4f4f4;color:#000" class="footer"><p>© <!-- -->2025<!-- --> Star Underscore. All rights reserved.</p></footer></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/study-desk/languages/arabic/lesson3_how_to_become_a_muslims/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-b893fa3db78d74c5320d.js\"],\"component---src-pages-404-jsx\":[\"/component---src-pages-404-jsx-0f33f4596fea1d35b5e3.js\"],\"component---src-pages-index-jsx\":[\"/component---src-pages-index-jsx-b66d68486dd9a8187d45.js\"],\"component---src-pages-pro-jsx\":[\"/component---src-pages-pro-jsx-4a8c5116633171e3b29a.js\"],\"component---src-pages-search-jsx\":[\"/component---src-pages-search-jsx-73cd3e2ff5b3f2621142.js\"],\"component---src-pages-study-desk-index-js\":[\"/component---src-pages-study-desk-index-js-6c142d1e3826b8cf8cee.js\"],\"component---src-templates-blog-template-js\":[\"/component---src-templates-blog-template-js-57932f7835352314d034.js\"],\"component---src-templates-pdf-template-js\":[\"/component---src-templates-pdf-template-js-527960e6667f633c2c2c.js\"],\"component---src-templates-studydesk-template-js\":[\"/component---src-templates-studydesk-template-js-54bde6b54d62323f4082.js\"],\"component---src-templates-training-template-js\":[\"/component---src-templates-training-template-js-a0cdd5094dbf637e73d6.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="d3dd3fed3bd060d8f35a";</script><script src="/webpack-runtime-a44b4cebf84487343670.js" async></script><script src="/framework-2f079afc8618159e6dba.js" async></script><script src="/app-b893fa3db78d74c5320d.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>

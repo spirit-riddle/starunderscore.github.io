@@ -11,3 +11,8 @@ The Arabic Study Desk is your guide to immersing yourself in one of the world’
 
 - [Lesson 2: Basic Grammar and Vocabulary](/study-desk/languages/arabic/lesson2_basic_grammer_and_vocad/)  
   *Advance to learning essential grammar and vocabulary. Through interactive playlists and practical examples, gain confidence in constructing sentences and communicating effectively.*
+
+- [Lesson 3: How to Become a Muslim](/study-desk/languages/arabic/lesson3_how_to_become_a_muslims/)  
+  *Explore the essential phrases and concepts to understand the process of embracing Islam. Learn key Arabic terms, the declaration of faith, and their meanings in a spiritual and linguistic context.*
+
+

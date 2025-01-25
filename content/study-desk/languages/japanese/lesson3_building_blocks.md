@@ -710,3 +710,151 @@ This section introduces essential vocabulary and sentences for asking for help, 
     *I’m fine, thank you.*  
     Hiragana: だいじょうぶです、ありがとうございます。
 
+---
+
+## **Grammar Basics to Match Beginner Sentences**
+
+---
+
+### **Lesson 1: Greetings and Politeness**
+- Japanese greetings and polite expressions are an essential part of daily conversation.
+- **Structure:** Often include a greeting followed by a question or statement about well-being.
+  
+#### Key Grammar Points:
+1. **Question Particle か**  
+   Used to indicate a question.  
+   Example:  
+   **お元気ですか？** (*おげんきですか？*)  
+   *How are you?*  
+   - **です**: Polite copula (to be).  
+   - **か**: Indicates the sentence is a question.
+
+2. **Combining Expressions:**  
+   Polite phrases like **ありがとうございます** (Thank you) and **お願いします** (Please) stand alone or can be combined with requests.  
+   Example:  
+   **水をください。** (*みずをください。*)  
+   *Please, can I have water?*  
+
+---
+
+### **Lesson 2: Identifying Objects and Negation**
+- Sentences like **これは何ですか？** (*What is this?*) introduce identification and negation.
+
+#### Key Grammar Points:
+1. **The Particle は (wa)**  
+   Marks the topic of a sentence.  
+   Example:  
+   **これは本です。** (*これはほんです。*)  
+   *This is a book.*  
+   - **これ**: This  
+   - **は**: Topic marker  
+   - **本 (ほん)**: Book  
+
+2. **Negation:**  
+   Use **ではありません** to indicate something is not true.  
+   Example:  
+   **犬ではありません。** (*いぬではありません。*)  
+   *It is not a dog.*  
+
+---
+
+### **Lesson 3: Describing Likes and Dislikes**
+- Expressing preferences uses **好きです** (*I like it*) and **嫌いです** (*I don’t like it*).
+
+#### Key Grammar Points:
+1. **The Particle が (ga)**  
+   Marks the subject, often when expressing emotions or preferences.  
+   Example:  
+   **猫が嫌いです。** (*ねこがきらいです。*)  
+   *I don’t like cats.*  
+
+2. **です**: Polite ending added to make sentences formal.  
+   Example:  
+   **好きです。**  
+   *I like it.*  
+
+---
+
+### **Lesson 4: Asking and Giving Locations**
+- Location phrases like **どこですか？** (*Where is it?*) rely on particles and positional vocabulary.
+
+#### Key Grammar Points:
+1. **Location Particle に (ni)**  
+   Indicates the location of existence.  
+   Example:  
+   **先生は教室にいます。** (*せんせいはきょうしつにいます。*)  
+   *The teacher is in the classroom.*  
+
+2. **あります** vs. **います**  
+   - **あります**: For inanimate objects.  
+   - **います**: For living things.  
+   Example:  
+   **犬はどこにいますか？** (*いぬはどこにいますか？*)  
+   *Where is the dog?*  
+
+---
+
+### **Lesson 5: Actions and Commands**
+- Commands like **走ってください** (*Please run*) combine verbs and polite endings.
+
+#### Key Grammar Points:
+1. **て Form + ください**  
+   Used to make polite requests.  
+   Example:  
+   **鉛筆で書いてください。** (*えんぴつでかいてください。*)  
+   *Please write with a pencil.*  
+
+2. **で** (de): Indicates the tool or method used.  
+   Example:  
+   **鉛筆で書きました。** (*えんぴつでかきました。*)  
+   *I wrote with a pencil.*  
+
+---
+
+### **Lesson 6: Time and Daily Activities**
+- Sentences about daily routines use time markers and simple verb forms.
+
+#### Key Grammar Points:
+1. **Time Particle に (ni)**  
+   Indicates a specific time.  
+   Example:  
+   **朝6時に起きます。** (*あさろくじにおきます。*)  
+   *I wake up at 6 AM.*  
+
+2. **Verb Conjugations:**  
+   - **起きます**: Present/future tense (I wake up).  
+   - **起きました**: Past tense (I woke up).  
+
+---
+
+### **Lesson 7: Directions**
+- Spatial relationships use specific particles and directional vocabulary.
+
+#### Key Grammar Points:
+1. **へ (e) and に (ni):**  
+   Both indicate direction, but **に** emphasizes the destination, while **へ** suggests movement toward a general direction.  
+   Example:  
+   **駅に行きます。** (*えきにいきます。*)  
+   *I am going to the station.*  
+
+2. **Positional Words with の (no):**  
+   Links nouns to describe location.  
+   Example:  
+   **信号の前にあります。** (*しんごうのまえにあります。*)  
+   *It is in front of the traffic light.*  
+
+---
+
+### **Lesson 8: Making Requests and Asking for Help**
+- Survival phrases like **助けてください** (*Please help me*) combine verbs with polite endings.
+
+#### Key Grammar Points:
+1. **助けて (tasukete)**  
+   Verbs in **て-form** convey ongoing actions or requests.  
+   Example:  
+   **助けてください。**  
+   *Please help me.*  
+
+2. **ゆっくり話してください** (*ゆっくりはなしてください*):  
+   Adding **ください** to a **て-form** verb makes polite requests.  
+

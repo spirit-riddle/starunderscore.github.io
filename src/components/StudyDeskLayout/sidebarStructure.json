@@ -58,8 +58,8 @@
       "active": "temp-holder",
       "items": [
         {
-          "title": "MkDocs Software Printer",
-          "href": "/study-desk/temp-holder/mkdocs-software-printer/",
+          "title": "Table of Contents",
+          "href": "/study-desk/temp-holder/_intro/",
           "active": "mkdocs-software-printer"
         }
       ]

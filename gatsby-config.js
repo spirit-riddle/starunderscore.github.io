@@ -34,9 +34,17 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-", // Add a prefix for language-specific classes
+              showLineNumbers: true, // Show line numbers
+              noInlineHighlight: false, // Highlight inline code
+            },
+          },
+          {
             resolve: `gatsby-remark-katex`,
             options: {
-              strict: `ignore`,
+              strict: `ignore`, // Allows more flexible rendering
             },
           },
         ],

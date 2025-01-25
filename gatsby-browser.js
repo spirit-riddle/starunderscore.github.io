@@ -4,6 +4,11 @@ import MaterialThemeProvider from "./src/components/FrontSite/MaterialThemeProvi
 import { TabsProvider } from "./src/components/StudyDeskLayout/TabsContext";
 import { Helmet } from "react-helmet";
 
+//css
+import "prismjs/themes/prism-tomorrow.css"; // Dark theme
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"; // Line numbers
+
+
 export const wrapRootElement = ({ element }) => (
   <>
     <Helmet>

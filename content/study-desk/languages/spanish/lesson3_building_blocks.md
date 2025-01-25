@@ -546,3 +546,69 @@ This section equips you with essential survival phrases for emergencies or when 
     *Thank you for your help, I really appreciate it.*  
 
 ---
+
+## **Sentence Enhancers: Strengthen Your Fluency**
+
+### **1. Forming Questions**
+Turn statements into questions for better conversational skills. Use **¿... ?** and adjust the word order.  
+- **Statement**: **Es un libro.**  
+  *(It is a book.)*  
+- **Question**: **¿Es un libro?**  
+  *(Is it a book?)*  
+
+### **2. Adding Negation**
+Expand your sentence flexibility by adding **"no"** before the verb.  
+- **Positive**: **Me gusta la comida.**  
+  *(I like the food.)*  
+- **Negative**: **No me gusta la comida.**  
+  *(I don’t like the food.)*  
+
+### **3. Shifting Tenses**
+Practice switching between tenses to describe actions across time.  
+- **Present**: **Voy al parque.** *(I go to the park.)*  
+- **Past**: **Fui al parque.** *(I went to the park.)*  
+- **Future**: **Iré al parque.** *(I will go to the park.)*  
+
+### **4. Politeness Matters**
+Use words like **por favor** (please) or **gracias** (thank you) to make interactions courteous.  
+- **Direct**: **Pasa el agua.** *(Pass the water.)*  
+- **Polite**: **Por favor, pasa el agua.** *(Please pass the water.)*  
+
+### **5. Adding Emphasis**
+Make your sentences more expressive with **muy** (very) or **tan** (so).  
+- **Basic**: **Está caliente.** *(It’s hot.)*  
+- **Enhanced**: **Está muy caliente.** *(It’s very hot.)*  
+- **Extra Enhanced**: **Está tan caliente que necesito agua.**  
+  *(It’s so hot that I need water.)*  
+
+### **6. Connecting Ideas**
+Combine thoughts with **y** (and), **pero** (but), or **porque** (because).  
+- **Basic**: **Voy al parque.** *(I go to the park.)*  
+- **Enhanced**: **Voy al parque y llevo un libro.**  
+  *(I go to the park and take a book.)*  
+
+### **7. Using Synonyms for Variety**
+Replace common words with synonyms to enrich your vocabulary.  
+- **Basic**: **¿Dónde está el perro?**  
+  *(Where is the dog?)*  
+- **Enhanced**: **¿Dónde está la mascota?**  
+  *(Where is the pet?)*  
+
+### **8. Making Comparisons**
+Use **más** (more) or **menos** (less) to compare objects or actions.  
+- **Basic**: **El perro es grande.** *(The dog is big.)*  
+- **Enhanced**: **El perro es más grande que el gato.**  
+  *(The dog is bigger than the cat.)*  
+
+### **9. Expressing Necessity**
+Strengthen your phrases with verbs like **necesitar** (to need) or **deber** (must).  
+- **Basic**: **Necesito estudiar.** *(I need to study.)*  
+- **Enhanced**: **Debo estudiar más español.**  
+  *(I must study more Spanish.)*  
+
+### **10. Adding Emotional Tone**
+Incorporate exclamations like **¡Qué...!** (How...!) to show emotion.  
+- **Basic**: **Es bonito.** *(It’s pretty.)*  
+- **Enhanced**: **¡Qué bonito es!**  
+  *(How pretty it is!)*  
+

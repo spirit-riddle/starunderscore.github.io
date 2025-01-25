@@ -18,6 +18,9 @@ This Study Desk is your gateway to mastering the fundamentals and intricacies of
 - [Lesson 4: Spanish for the Job Site - Building a House](/study-desk/languages/spanish/lesson4_building_a_house)  
   *Enhance your communication skills on the job site with essential Spanish phrases and commands tailored for construction work. Learn how to give directions, ensure safety, and collaborate effectively with your team.*
 
+- [Lesson 5: Spanish for Restaurants - Dining and Service](/study-desk/languages/spanish/lesson5_restaurants_and_food_service)  
+  *Navigate restaurant conversations with ease. Learn key phrases for ordering food, handling special requests, and interacting politely with servers and customers.*
+
 ---
 
 Feel free to explore these lessons in order or jump into the section that interests you most. Spanish is a vibrant and expressive language, and with every lesson, you'll unlock new ways to connect with its culture and people.

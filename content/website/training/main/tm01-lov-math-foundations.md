@@ -133,7 +133,7 @@ Dive deeper into the world of statistics and probability with this comprehensive
 <iframe
   width="560"
   height="315"
-  src="https://www.youtube.com/embed/sbbYntt5CJk"
+  src="https://www.youtube.com/embed/xxpc-HPKN28?si=5YjL9N4Yeyx1jsdd"
   title="Probability and Statistics Full Course"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
